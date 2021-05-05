@@ -27,6 +27,9 @@ export const PageSubTitle = styled.strong`
 `
 
 export const Text = styled.span``
+export const TextPre = styled.span`
+  white-space: pre-wrap;
+`
 export const TextP = styled.p``
 
 export const Icon = ({ name }) => <FontAwesomeIcon icon={['fas', name]} />

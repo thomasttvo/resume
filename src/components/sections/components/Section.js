@@ -15,7 +15,7 @@ export const Section = ({ title, children }) => {
   return (
     <Wrapper column>
       <Title>{title}</Title>
-      <FlexView>{children}</FlexView>
+      <FlexView column>{children}</FlexView>
     </Wrapper>
   )
 }
