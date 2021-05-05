@@ -37,7 +37,7 @@ const Title = styled.h3`
   margin: 0 0 ${goldenRatio(-2)}em 0;
 `
 const Company = styled.strong`
-  margin-bottom: ${goldenRatio(1)}em;
+  margin-bottom: ${goldenRatio(0)}em;
 `
 const Dates = styled.div`
   margin-bottom: ${goldenRatio(-2)}em;
