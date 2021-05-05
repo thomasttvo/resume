@@ -43,13 +43,12 @@ Preferred work environment: wholesome, mission-driven, work-life balance, promot
       content: [
         {
           title: 'Engineering Manager',
-          company: 'Dormzi',
+          company: 'Dormzi LLC.',
           start: 'Jun 2019',
           location: 'United States (Remote)',
           skills: [
-            ['React Web', 'React Native', 'MongoDB', 'XState'][
-              ('Apollo GraphQL', 'Firebase', 'Firestore')
-            ],
+            ['React Web', 'React Native', 'MongoDB', 'XState'],
+            ['Apollo GraphQL', 'Firebase', 'Firestore'],
           ],
           description: `- Managed a remote team of five senior engineers (two software engineers in test) distributed across the US, Europe, and Asia.
 - Interviewed and participated in the decision to hire multiple team members including the CTO and the current product manager.
@@ -63,109 +62,122 @@ Preferred work environment: wholesome, mission-driven, work-life balance, promot
 - Maintained the development process and constantly made iterative changes to the process to tailor-fit to the team and the circumstances rather than adhering strictly to existing agile frameworks.`,
         },
         {
-          title: 'Engineering Manager',
-          company: 'Dormzi',
-          start: 'Jun 2019',
-          location: 'United States (Remote)',
+          title: 'Co-founder & CTO',
+          company: 'Ohana',
+          start: 'Jan 2017',
+          end: 'Jul 2020',
+          location: 'Vietnam & Singapore',
           skills: [
-            ['React Web', 'React Native', 'MongoDB', 'XState'][
-              ('Apollo GraphQL', 'Firebase', 'Firestore')
+            [
+              'React Web',
+              'React Native',
+              'AngularJS',
+              'ExpressJS',
+              'MongoDB',
+              'Highcharts',
+              'Firebase',
+              'Sketch',
+              'Tableau',
             ],
           ],
-          description: `- Managed a remote team of five senior engineers (two software engineers in test) distributed across the US, Europe, and Asia.
-- Interviewed and participated in the decision to hire multiple team members including the CTO and the current product manager.
-- Took over a codebase with a high amount of technical debt from an outsourced party, rebuilt the team, put in place agile practices and lean software development culture, worked with a QA engineer to stabilize the product, and successfully launched v1.0.
-- Rebuilt from scratch the infrastructure of the React Native app to clean up thousands of lines of repetitive code while creating a strong baseline for the future development plan and orchestrated the rest of the team to build new features on top.
-- Built from scratch a form generator system that handles all form-related user experience including loading, validating, keyboard events, submission, alerts, and error handling.
-- Orchestrated the migration of server-side architecture from Express, Firebase Functions, and Firestore to Apollo GraphQL, Heroku, and MongoDB Atlas to allow for a more flexible and simplified code base.
-- Orchestrated the development from scratch and fine-tuning of the web platform
-- Collaborated with a Toptal designer, a Toptal product manager to orchestrate the dev team to implement a total make-over of the product based on user feedback from v1.0 while creating a more consistent atomic design system.
-- Planned and held product meetings to ensure three-way feedbacks among product, design, and dev for maximum product impact and minimum dev effort, while also steering each member of the dev team toward high ownership of various parts of the product.
-- Maintained the development process and constantly made iterative changes to the process to tailor-fit to the team and the circumstances rather than adhering strictly to existing agile frameworks.`,
+          description: `- Founded and managed the entire product team of the most advanced apartment marketplace in Vietnam (Airbnb-like, for residential rentals) on React/React Native. The platform reached 200,000 users within the first 2 years serving 1,500 finders every day.
+- Built from scratch the entire stack of the marketplace including mobile apps on React Native, APIs on Express.js, and database with MongoDB.
+- Developed from scratch the entire authentication system to replace Firebase due to its low performance in Asia. Created a concurrency system to sync users' offline data across multiple devices.
+- Migrated all of the AngularJS components from the web app to React Native while rewriting ZERO lines of code.
+- Used data analytics to identify and rewrite several MongoDB queries with performance issues.
+- Created a roommate-matching algorithm based on 22 different lifestyle qualities. Built a dynamic form wizard where each step adapts to answers in the previous steps. The wizard engine is decoupled enough to be reused on both React Native and Angular.
+- Built several admin features on React including data charts (with Highcharts), CRMs, and user management.
+- Developed from scratch a simpler alternative to Redux but highly tailored to the current system.
+- Developed financial models, laid out business strategy, raised funding, and participated in strategic investor meetings.
+- Designed from scratch the UI/UX, and branding of the product with Sketch and, later on, led the product design team.
+- Developed Tableau charts connected to MongoDB to perform data analytics resulting in 2x the GMV of the marketplace.`,
         },
         {
-          title: 'Engineering Manager',
-          company: 'Dormzi',
-          start: 'Jun 2019',
-          location: 'United States (Remote)',
-          skills: [
-            ['React Web', 'React Native', 'MongoDB', 'XState'][
-              ('Apollo GraphQL', 'Firebase', 'Firestore')
-            ],
-          ],
-          description: `- Managed a remote team of five senior engineers (two software engineers in test) distributed across the US, Europe, and Asia.
-- Interviewed and participated in the decision to hire multiple team members including the CTO and the current product manager.
-- Took over a codebase with a high amount of technical debt from an outsourced party, rebuilt the team, put in place agile practices and lean software development culture, worked with a QA engineer to stabilize the product, and successfully launched v1.0.
-- Rebuilt from scratch the infrastructure of the React Native app to clean up thousands of lines of repetitive code while creating a strong baseline for the future development plan and orchestrated the rest of the team to build new features on top.
-- Built from scratch a form generator system that handles all form-related user experience including loading, validating, keyboard events, submission, alerts, and error handling.
-- Orchestrated the migration of server-side architecture from Express, Firebase Functions, and Firestore to Apollo GraphQL, Heroku, and MongoDB Atlas to allow for a more flexible and simplified code base.
-- Orchestrated the development from scratch and fine-tuning of the web platform
-- Collaborated with a Toptal designer, a Toptal product manager to orchestrate the dev team to implement a total make-over of the product based on user feedback from v1.0 while creating a more consistent atomic design system.
-- Planned and held product meetings to ensure three-way feedbacks among product, design, and dev for maximum product impact and minimum dev effort, while also steering each member of the dev team toward high ownership of various parts of the product.
-- Maintained the development process and constantly made iterative changes to the process to tailor-fit to the team and the circumstances rather than adhering strictly to existing agile frameworks.`,
+          title: 'Co-Founder & CEO',
+          company: 'KodeQ',
+          start: 'Sep 2014',
+          end: 'Dec 2016',
+          location: 'Vietnam & Atlanta, GA',
+          description: `- Interviewed and built a Javascript team in Ho Chi Minh city as augmented staff members for the AngularJS team at Weather.com (based in Atlanta, GA).
+- Facilitated remote collaboration between dev teams distributed on the two opposite sides of the globe.
+- Participated in the sales, management, and operations — growing the company to 15 engineers.`,
         },
         {
-          title: 'Engineering Manager',
-          company: 'Dormzi',
-          start: 'Jun 2019',
-          location: 'United States (Remote)',
-          skills: [
-            ['React Web', 'React Native', 'MongoDB', 'XState'][
-              ('Apollo GraphQL', 'Firebase', 'Firestore')
-            ],
-          ],
-          description: `- Managed a remote team of five senior engineers (two software engineers in test) distributed across the US, Europe, and Asia.
-- Interviewed and participated in the decision to hire multiple team members including the CTO and the current product manager.
-- Took over a codebase with a high amount of technical debt from an outsourced party, rebuilt the team, put in place agile practices and lean software development culture, worked with a QA engineer to stabilize the product, and successfully launched v1.0.
-- Rebuilt from scratch the infrastructure of the React Native app to clean up thousands of lines of repetitive code while creating a strong baseline for the future development plan and orchestrated the rest of the team to build new features on top.
-- Built from scratch a form generator system that handles all form-related user experience including loading, validating, keyboard events, submission, alerts, and error handling.
-- Orchestrated the migration of server-side architecture from Express, Firebase Functions, and Firestore to Apollo GraphQL, Heroku, and MongoDB Atlas to allow for a more flexible and simplified code base.
-- Orchestrated the development from scratch and fine-tuning of the web platform
-- Collaborated with a Toptal designer, a Toptal product manager to orchestrate the dev team to implement a total make-over of the product based on user feedback from v1.0 while creating a more consistent atomic design system.
-- Planned and held product meetings to ensure three-way feedbacks among product, design, and dev for maximum product impact and minimum dev effort, while also steering each member of the dev team toward high ownership of various parts of the product.
-- Maintained the development process and constantly made iterative changes to the process to tailor-fit to the team and the circumstances rather than adhering strictly to existing agile frameworks.`,
+          title: 'Software Engineer V',
+          company: 'ADP',
+          start: 'Dec 2014',
+          end: 'Jul 2015',
+          location: 'Alpharetta, GA',
+          skills: [['Vanilla JS', 'HTML/CSS']],
+          description: `- Joined the effort of rebuilding the entire web product by transforming a scattered system of web technologies into a centralized system with unified standards and up-to-date technology using a proprietary framework that was built in-house.
+- Performed UI/UX design with Sketch.
+- Built upon the original framework to provide more tools and better developer experience.`,
         },
         {
-          title: 'Engineering Manager',
-          company: 'Dormzi',
-          start: 'Jun 2019',
-          location: 'United States (Remote)',
-          skills: [
-            ['React Web', 'React Native', 'MongoDB', 'XState'][
-              ('Apollo GraphQL', 'Firebase', 'Firestore')
-            ],
-          ],
-          description: `- Managed a remote team of five senior engineers (two software engineers in test) distributed across the US, Europe, and Asia.
-- Interviewed and participated in the decision to hire multiple team members including the CTO and the current product manager.
-- Took over a codebase with a high amount of technical debt from an outsourced party, rebuilt the team, put in place agile practices and lean software development culture, worked with a QA engineer to stabilize the product, and successfully launched v1.0.
-- Rebuilt from scratch the infrastructure of the React Native app to clean up thousands of lines of repetitive code while creating a strong baseline for the future development plan and orchestrated the rest of the team to build new features on top.
-- Built from scratch a form generator system that handles all form-related user experience including loading, validating, keyboard events, submission, alerts, and error handling.
-- Orchestrated the migration of server-side architecture from Express, Firebase Functions, and Firestore to Apollo GraphQL, Heroku, and MongoDB Atlas to allow for a more flexible and simplified code base.
-- Orchestrated the development from scratch and fine-tuning of the web platform
-- Collaborated with a Toptal designer, a Toptal product manager to orchestrate the dev team to implement a total make-over of the product based on user feedback from v1.0 while creating a more consistent atomic design system.
-- Planned and held product meetings to ensure three-way feedbacks among product, design, and dev for maximum product impact and minimum dev effort, while also steering each member of the dev team toward high ownership of various parts of the product.
-- Maintained the development process and constantly made iterative changes to the process to tailor-fit to the team and the circumstances rather than adhering strictly to existing agile frameworks.`,
+          title: 'Senior Javascript Application Developer',
+          company: 'The Weather Company, an IBM Business',
+          start: 'Aug 2013',
+          end: 'Nov 2014',
+          location: 'Atlanta, GA',
+          skills: [['AngularJS', 'Sass', 'Facebook API']],
+          description: `- Joined the core team that establishes new programming standards for the front end of a newly built content management system on Weather.com.
+- Designed and implemented foundational Angular services and directives that are later used by other developers to build testable application modules.
+- Transferred knowledge and experiences to several team members who were new to AngularJS.
+- Worked with CSS and JavaScript animations to deliver highly interactive web content to visitors.
+Optimized the critical rendering path, bringing page load time from five seconds to two seconds.
+- Trained and mentored new team members.
+- Performed code review during development cycles to ensure code quality and standards.
+- Used a Highcharts library to deliver charting solutions across the weather visualization features.`,
         },
         {
-          title: 'Engineering Manager',
-          company: 'Dormzi',
-          start: 'Jun 2019',
-          location: 'United States (Remote)',
-          skills: [
-            ['React Web', 'React Native', 'MongoDB', 'XState'][
-              ('Apollo GraphQL', 'Firebase', 'Firestore')
-            ],
-          ],
-          description: `- Managed a remote team of five senior engineers (two software engineers in test) distributed across the US, Europe, and Asia.
-- Interviewed and participated in the decision to hire multiple team members including the CTO and the current product manager.
-- Took over a codebase with a high amount of technical debt from an outsourced party, rebuilt the team, put in place agile practices and lean software development culture, worked with a QA engineer to stabilize the product, and successfully launched v1.0.
-- Rebuilt from scratch the infrastructure of the React Native app to clean up thousands of lines of repetitive code while creating a strong baseline for the future development plan and orchestrated the rest of the team to build new features on top.
-- Built from scratch a form generator system that handles all form-related user experience including loading, validating, keyboard events, submission, alerts, and error handling.
-- Orchestrated the migration of server-side architecture from Express, Firebase Functions, and Firestore to Apollo GraphQL, Heroku, and MongoDB Atlas to allow for a more flexible and simplified code base.
-- Orchestrated the development from scratch and fine-tuning of the web platform
-- Collaborated with a Toptal designer, a Toptal product manager to orchestrate the dev team to implement a total make-over of the product based on user feedback from v1.0 while creating a more consistent atomic design system.
-- Planned and held product meetings to ensure three-way feedbacks among product, design, and dev for maximum product impact and minimum dev effort, while also steering each member of the dev team toward high ownership of various parts of the product.
-- Maintained the development process and constantly made iterative changes to the process to tailor-fit to the team and the circumstances rather than adhering strictly to existing agile frameworks.`,
+          title: 'Javascript Application Developer',
+          company: 'CafePress Inc.',
+          start: 'Aug 2013',
+          end: 'Nov 2014',
+          location: 'Atlanta, GA',
+          skills: [['AngularJS', 'Sass', 'Facebook API']],
+          description: `Worked under the EZPrints division. Participated in the development of a web app that helps users customize merchandise printing. The app is used on www.targetphoto.com and www.disneyphotopass.com.
+
+- Participated in the process of upgrading the formerly Flash application to a HTML5/Javascript Application based on the BackBoneJs framework that offers compatibility with present and future browser technology.
+- Working with HTML5 Canvas and FabricJs to create a simple but interactive canvas that allows customers to customize printable products
+- Successfully implemented CORS (Cross Site Request Origin) on an embeddable javascript application
+- Worked with iframe to create a fresh runtime environment for the embedded javascript application.`,
+        },
+        {
+          title: 'Javascript Application Developer',
+          company: 'Tentail',
+          start: 'Dec 2012',
+          end: 'Apr 2013',
+          location: 'Atlanta, GA',
+          skills: [['Backbone.js']],
+          description: `Used Backbone.js to build a single page web application that completely operates on javascript/html and uses ajax to communicate with web services on the main server.`,
+        },
+        {
+          title: 'Magento Developer (Full Stack)',
+          company: 'ExpandLab',
+          start: 'Nov 2012',
+          end: 'Apr 2013',
+          location: 'Atlanta, GA',
+          skills: [['Magento E-Commerce (PHP)', 'jQuery', 'PrototypeJs']],
+          description: `Developed and customized Magento extensions for various ecommerce websites built upon the Magento framework.`,
+        },
+        {
+          title: 'Web Application Developer (Full Stack)',
+          company: 'WingStats',
+          start: 'Jul 2012',
+          end: 'Apr 2013',
+          location: 'Atlanta, GA',
+          skills: [['Yii Framework (PHP)', 'jQuery', 'AngularJs']],
+          description: `WingStats is a web application that bridges that gap between pilots (job applicants) and airlines (job recruiters). It provides tools that are tailored for job application management in the aviation industry.
+
+- Successfully worked under the agile development principle.
+- Built the whole system from the ground up: Database Design, Back-end and Front-end Architectural Design.
+- Moved the original application from BackPress to Yii Framework (www.yiiframework.com) for better component organization and putting more focus into solid architecture and security.
+
+In 2013:
+
+- On the server side: Customized Yii Framework to add support for enterprise development: Dependency Injection, Aspect Oriented Programming, Two Step View Layout, Service Layer (Transaction Script Implementation), and JSON Web Service inspired by the Patterns of Service Oriented Web Application by Martin Fowler.
+- On the client side: Used AngularJs and RequireJS to create a fully enterprise ready javascript application that transcend what's provided by jQuery.`,
         },
       ],
     },
