@@ -5,7 +5,7 @@ import { goldenRatio } from '@utils'
 
 const Title = styled.h2`
   text-transform: uppercase;
-  font-size: ${goldenRatio(1)}em;
+  font-size: ${goldenRatio(2)}em;
 `
 const Wrapper = styled(FlexView)`
   margin-top: ${goldenRatio(2)}em;
