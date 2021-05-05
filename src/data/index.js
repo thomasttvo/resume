@@ -14,7 +14,7 @@ As an engineer, Thomas values testable, reusable, performant, secure, and self-d
 
 As a leader, Thomas values building wholesome company cultures, developing compassionate leadership, investing in communication, prioritizing mental/physical well-being of team members
 
-Primary experience: complex Javascript client-side systems (React, React Native, Angular)
+Primary experience: complex client-side Javascript systems (React, React Native, Angular)
 Preferred process: In general, Agile Manifesto over Agile Frameworks
 Preferred company categories: B2C, media, finance, data, marketplaces
 Preferred work environment: wholesome, mission-driven, work-life balance, promoting healthy lifestyle, social, communicative, challenging the status quo.
