@@ -12,29 +12,45 @@ Having grown up in a financially-challenged family in Vietnam and, later on, exp
 
 As an engineer, Thomas values testable, reusable, performant, secure, and self-documented code. Most of the time, this boils down to mastery of SOLID principles and design patterns.
 
-As a leader, Thomas values building wholesome company cultures, developing compassionate leadership, investing in communication, prioritizing mental/physical well-being of team members
-
-Primary experience: complex client-side Javascript systems (React, React Native, Angular)
-Preferred process: In general, Agile Manifesto over Agile Frameworks
-Preferred company categories: B2C, media, finance, data, marketplaces
-Preferred work environment: wholesome, mission-driven, work-life balance, promoting healthy lifestyle, social, communicative, challenging the status quo.
+As a leader, Thomas values building wholesome company cultures, developing compassionate leadership, investing in communication, and prioritizing mental/physical well-being of team members
 `,
+      items: [
+        {
+          title: 'Primary Experience',
+          content:
+            'complex client-side Javascript systems (React, React Native, Angular), SOLID Principles, Gang of Four, OOD, OOP',
+        },
+        {
+          title: 'Preferred Process',
+          content: 'Agile with an emphasis on Agile Manifesto over Agile frameworks',
+        },
+        {
+          title: 'Preferred Company Categories',
+          content: 'B2C, media, finance, data, marketplaces',
+        },
+        {
+          title: 'Preferred Work Environment',
+          content:
+            'Wholesome, mission-driven, mentorship-driven, work-life balance, promoting healthy lifestyle, social, collaborative, communicative, challenging the status quo',
+        },
+      ],
     },
 
     skills: {
       title: 'Skills',
       content: [
-        ['React Web', 'React Native', 'AngularJS', 'HTML/CSS', 'MongoDB', 'NodeJS', 'Tableau', 'Sketch'],
         [
           'Software Architecture',
-          'OOD',
-          'OOP',
-          'Data Analytics',
-          'Design',
+          'OOD/OOP',
+          'SOLID',
+          'Design Patterns',
           'Leadership',
+          'UI/UX Design',
+          'Data Analytics',
           'Lean Startup',
-          'Product Management',
         ],
+        ['React Web', 'React Native', 'AngularJS', 'HTML/CSS', 'MongoDB', 'NodeJS'],
+        ['Tableau', 'Sketch', 'WebStorm'],
       ],
     },
 
@@ -124,7 +140,7 @@ Preferred work environment: wholesome, mission-driven, work-life balance, promot
 - Designed and implemented foundational Angular services and directives that are later used by other developers to build testable application modules.
 - Transferred knowledge and experiences to several team members who were new to AngularJS.
 - Worked with CSS and JavaScript animations to deliver highly interactive web content to visitors.
-Optimized the critical rendering path, bringing page load time from five seconds to two seconds.
+- Optimized the critical rendering path, bringing page load time from five seconds to two seconds.
 - Trained and mentored new team members.
 - Performed code review during development cycles to ensure code quality and standards.
 - Used a Highcharts library to deliver charting solutions across the weather visualization features.`,
@@ -136,12 +152,12 @@ Optimized the critical rendering path, bringing page load time from five seconds
           end: 'Nov 2014',
           location: 'Atlanta, GA',
           skills: [['AngularJS', 'Sass', 'Facebook API']],
-          description: `Worked under the EZPrints division. Participated in the development of a web app that helps users customize merchandise printing. The app is used on www.targetphoto.com and www.disneyphotopass.com.
+          description: `Worked under the EZPrints division. Participated in the development of a web app that helps users design merchandise prints. The app was used by major clients like www.targetphoto.com and www.disneyphotopass.com.
 
 - Participated in the process of upgrading the formerly Flash application to a HTML5/Javascript Application based on the BackBoneJs framework that offers compatibility with present and future browser technology.
 - Working with HTML5 Canvas and FabricJs to create a simple but interactive canvas that allows customers to customize printable products
-- Successfully implemented CORS (Cross Site Request Origin) on an embeddable javascript application
-- Worked with iframe to create a fresh runtime environment for the embedded javascript application.`,
+- Created a mini framework for a javascript application that can be embedded on any site
+`,
         },
         {
           title: 'Javascript Application Developer',
