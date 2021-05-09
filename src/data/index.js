@@ -2,6 +2,13 @@ export const data = {
   title: 'Thomas Vo',
   subtitle: 'Engineer, Entrepreneur',
   sections: {
+    contact: {
+      content: [
+        { code: 'linkedin', content: query => query.contact?.[0] },
+        { code: 'email', content: query => query.contact?.[1] },
+        { code: 'phone', content: query => query.contact?.[2] },
+      ],
+    },
     summary: {
       title: 'Summary',
       content: `Possessing both a creative and a logical mind, Thomas is passionate about building practical, well-designed, scalable, and financially sustainable products that impact millions of lives by improving their well-being.
@@ -60,6 +67,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
         {
           title: 'Engineering Manager',
           company: 'Dormzi',
+          link: 'https://www.linkedin.com/company/dormzi',
           start: 'Jun 2019',
           location: 'United States (Remote)',
           skills: [
@@ -80,6 +88,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
         {
           title: 'Co-founder & CTO',
           company: 'Ohana',
+          link: 'https://sg.linkedin.com/company/ohana-living',
           start: 'Jan 2017',
           end: 'Jul 2020',
           location: 'Vietnam & Singapore',
@@ -121,6 +130,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
         {
           title: 'Software Engineer V',
           company: 'ADP',
+          link: 'https://www.linkedin.com/company/adp',
           start: 'Dec 2014',
           end: 'Jul 2015',
           location: 'Alpharetta, GA',
@@ -131,7 +141,8 @@ As a leader, Thomas values building wholesome company cultures, developing compa
         },
         {
           title: 'Senior Javascript Application Developer',
-          company: 'The Weather Company, an IBM Business',
+          company: 'Weather.com',
+          link: 'https://www.linkedin.com/company/the-weather-company-ibm-business',
           start: 'Aug 2013',
           end: 'Nov 2014',
           location: 'Atlanta, GA',
@@ -148,6 +159,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
         {
           title: 'Javascript Application Developer',
           company: 'CafePress Inc.',
+          link: 'https://www.linkedin.com/company/cafepress-inc-',
           start: 'Aug 2013',
           end: 'Nov 2014',
           location: 'Atlanta, GA',
@@ -162,6 +174,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
         {
           title: 'Javascript Application Developer',
           company: 'Tentail',
+          link: 'https://www.linkedin.com/company/tentail',
           start: 'Dec 2012',
           end: 'Apr 2013',
           location: 'Atlanta, GA',
@@ -171,6 +184,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
         {
           title: 'Magento Developer (Full Stack)',
           company: 'ExpandLab',
+          link: 'https://www.linkedin.com/company/expandlab',
           start: 'Nov 2012',
           end: 'Apr 2013',
           location: 'Atlanta, GA',
@@ -180,6 +194,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
         {
           title: 'Web Application Developer (Full Stack)',
           company: 'WingStats',
+          link: 'https://www.linkedin.com/company/wingstats',
           start: 'Jul 2012',
           end: 'Apr 2013',
           location: 'Atlanta, GA',

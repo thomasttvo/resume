@@ -16,7 +16,7 @@ const Wrapper = styled(FlexView)`
 export const Section = ({ title, children }) => {
   return (
     <Wrapper column>
-      <Title>{title}</Title>
+      {!!title && <Title>{title}</Title>}
       <FlexView column>{children}</FlexView>
     </Wrapper>
   )

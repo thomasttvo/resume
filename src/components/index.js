@@ -3,12 +3,13 @@ import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Colors, Metrics } from '@constants'
 import { goldenRatioSpacing } from '@utils'
+import PropTypes from 'prop-types'
 
 export { RichText } from '@components/RichText'
 export { List } from '@components/List'
 
 export const AppContainer = styled.div`
-  padding: 2em;
+  padding: ${goldenRatioSpacing(3)}px ${goldenRatioSpacing(1)}px;
   max-width: 700px;
   font-family: 'Work Sans', sans-serif;
   font-size: ${Metrics.fontSizeDefault}px;
@@ -40,5 +41,15 @@ export const TextStrong = styled.strong`
   font-weight: ${Metrics.fontWeightBold};
 `
 
-export const Icon = ({ name }) => <FontAwesomeIcon icon={['fas', name]} />
+export const Icon = ({ name }) => <FontAwesomeIcon icon={name} />
 export const IconBrand = ({ name }) => <FontAwesomeIcon icon={['fab', name]} />
+export const Link = styled(({ newTab, ...props }) => (
+  <a {...props} {...(newTab && { target: '_blank' })} />
+))`
+  color: inherit;
+  text-decoration: none;
+  &:visited {
+    color: inherit;
+  }
+`
+Link.propTypes = { newTab: PropTypes.bool, href: PropTypes.string }

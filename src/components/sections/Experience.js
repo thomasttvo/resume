@@ -6,6 +6,9 @@ import styled from 'styled-components'
 import { goldenRatioSpacing } from '@utils'
 import { Colors, Metrics } from '@constants'
 import { RichText } from '@components'
+import { Icon } from '@components'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
+import { Link } from '@components'
 
 export const Experience = ({ data }) => {
   return (
@@ -22,7 +25,9 @@ const Item = ({ data }) => {
     <SubSection>
       <Block>
         <SubSectionTitle>{data.title}</SubSectionTitle>
-        <Company>{data.company}</Company>
+        <Company>
+          <Link newTab href={data.link}>{data.company} <Icon name={faLink}/></Link>
+        </Company>
       </Block>
       <Block>
         <Dates>

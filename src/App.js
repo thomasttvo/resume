@@ -17,7 +17,7 @@ export default function App() {
       </Helmet>
       <PageTitle>{data.title}</PageTitle>
       <PageSubTitle>{data.subtitle}</PageSubTitle>
-      {/*<Contact data={data.sections.contact} />*/}
+      <Contact data={data.sections.contact} />
       <Summary data={data.sections.summary} />
       <Experience data={data.sections.experience} />
       <Skills data={data.sections.skills} />
