@@ -12,4 +12,4 @@
 1. Set your repo `name` and `homepage` at `package.json`
 1. Go to the **Settings** tab on your repo to set up the branch `gh-pages` as Github Pages
 1. Go to the **Actions** tab on your repo to and make sure current workflow(s) in `.github/workflows` are enabled
-1. Simply to the `main` branch to deploy
+1. Simply push to the `main` branch to deploy
