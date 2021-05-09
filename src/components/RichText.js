@@ -1,6 +1,9 @@
 import React, { useMemo } from 'react'
 import { TextP } from '@components'
 import { List, ListItem } from '@components/List'
+import FlexView from 'react-flexview'
+import { goldenRatioSpacing } from '@utils/index'
+import styled from 'styled-components'
 
 export const RichText = ({ content }) => {
   const toRender = useMemo(() => {
@@ -8,7 +11,7 @@ export const RichText = ({ content }) => {
     return mapConfigToComponents(configItems)
   }, [content])
 
-  return <>{toRender}</>
+  return <Wrapper>{toRender}</Wrapper>
 }
 
 const parseText = text => {
@@ -43,3 +46,15 @@ const mapConfigToComponents = configItems => {
   const mapItems = items => items.map((config, index) => mapItem({ ...config, key: index }))
   return mapItems(configItems)
 }
+
+const Wrapper = styled(FlexView)`
+  & > * {
+    margin: ${goldenRatioSpacing(0)}px 0 0 0;
+    margin-block-start: ${goldenRatioSpacing(0)}px;
+  }
+  & > *:first-child {
+    margin: 0;
+    margin-block-start: 0;
+  }
+`
+Wrapper.defaultProps = { column: true }

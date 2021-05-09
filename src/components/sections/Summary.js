@@ -1,15 +1,17 @@
 import React from 'react'
 import { Section } from './components/Section'
-import {List, RichText, TextStrong} from '@components'
+import { List, RichText, TextStrong } from '@components'
 import FlexView from 'react-flexview'
 import { Text } from '@components'
+import { goldenRatioSpacing } from '@utils/index'
+import styled from 'styled-components'
 
 export const Summary = ({ data }) => {
   return (
     <Section title={data?.title}>
-      <RichText content={data?.content}/>
-      <FlexView>
-        <List
+      <FlexView column>
+        <RichText content={data?.content} />
+        <Items
           ordered={false}
           items={data?.items}
           renderItem={item => (
@@ -23,3 +25,7 @@ export const Summary = ({ data }) => {
     </Section>
   )
 }
+
+const Items = styled(List)`
+  margin: ${goldenRatioSpacing(0)}px 0 0 0;
+`
