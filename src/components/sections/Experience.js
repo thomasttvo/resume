@@ -26,7 +26,7 @@ const Item = ({ data }) => {
       <Block>
         <SubSectionTitle>{data.title}</SubSectionTitle>
         <Company>
-          <Link newTab href={data.link}>{data.company} <Icon name={faLink}/></Link>
+          <Link newTab href={data.link}>{data.company} {!!data.link && <Icon name={faLink}/>}</Link>
         </Company>
       </Block>
       <Block>
