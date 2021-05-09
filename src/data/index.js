@@ -168,7 +168,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
           end: 'Nov 2014',
           location: 'Atlanta, GA',
           skills: [['AngularJS', 'Sass', 'Facebook API']],
-          description: `- Joined the core team that establishes new programming standards for the front end of a newly built content management system on Weather.com.
+          description: `- Joined the core team that established new programming standards for the front end of a newly built content management system on Weather.com.
 - Designed and implemented foundational Angular services and directives that are later used by other developers to build testable application modules.
 - Transferred knowledge and experiences to several team members who were new to AngularJS.
 - Worked with CSS and JavaScript animations to deliver highly interactive web content to visitors.
