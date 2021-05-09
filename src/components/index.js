@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Colors, Metrics } from '@constants'
 import { goldenRatioSpacing } from '@utils'
 import PropTypes from 'prop-types'
-
+export { RepoIntro } from '@components/RepoIntro'
 export { RichText } from '@components/RichText'
 export { List } from '@components/List'
 

@@ -1,0 +1,5 @@
+export { Contact } from '@components/sections/Contact'
+export { Education } from '@components/sections/Education'
+export { Experience } from '@components/sections/Experience'
+export { Skills } from '@components/sections/Skills'
+export { Summary } from '@components/sections/Summary'
