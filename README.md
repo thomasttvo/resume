@@ -4,8 +4,10 @@
 
 1. Fork and check out repo
 1. Edit data at `src/data/index.js`
-1. run `yarn` to install dependencies
-1. run `yarn start` to start server locally
+1. Install [yarn](https://classic.yarnpkg.com/en/) if you don't have it yet
+1. Run `yarn` to install dependencies
+1. Run `yarn start` to start the local server
+1. Start playing with the code
 
 ## Deployment
 
