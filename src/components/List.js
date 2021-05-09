@@ -30,10 +30,12 @@ const OrderedList = styled.ol`
 `
 export const ListItem = styled.li`
   display: ${props => (props.horizontal ? 'inline-block' : undefined)};
-  margin-top: ${props =>
-    props.horizontal ? `${goldenRatioSpacing(-2)}px` : `${goldenRatioSpacing(-1)}px`};
+  margin-top: ${props => (props.horizontal ? 0 : `${goldenRatioSpacing(-1)}px`)};
   margin-right: ${props => (props.horizontal ? `${goldenRatioSpacing(-1)}px` : undefined)};
   &:first-child {
-    margin: 0;
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-right: 0;
   }
 `

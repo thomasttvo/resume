@@ -9,7 +9,7 @@ export const Skills = ({ data }) => {
   return (
     <Section title={data?.title}>
       <ContentWrapper>
-        {data?.content.map((skills, index) => {
+        {data?.content.map((skills) => {
           return <List horizontal items={skills} separator={', '} />
         })}
       </ContentWrapper>

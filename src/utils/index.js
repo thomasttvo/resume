@@ -5,5 +5,5 @@ const goldenRatio = degree => {
 }
 
 export const goldenRatioSpacing = degree => {
-  return goldenRatio(degree) * Metrics.fontSizeDefault
+  return Math.round(goldenRatio(degree) * Metrics.fontSizeDefault)
 }

@@ -49,12 +49,12 @@ const mapConfigToComponents = configItems => {
 
 const Wrapper = styled(FlexView)`
   & > * {
-    margin: ${goldenRatioSpacing(0)}px 0 0 0;
-    margin-block-start: ${goldenRatioSpacing(0)}px;
+    margin: ${goldenRatioSpacing(0)}px 0 0 0 !important;
+    margin-block-start: ${goldenRatioSpacing(0)}px !important;
   }
   & > *:first-child {
-    margin: 0;
-    margin-block-start: 0;
+    margin: 0 !important;
+    margin-block-start: 0 !important;
   }
 `
 Wrapper.defaultProps = { column: true }

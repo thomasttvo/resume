@@ -27,5 +27,5 @@ export const Summary = ({ data }) => {
 }
 
 const Items = styled(List)`
-  margin: ${goldenRatioSpacing(0)}px 0 0 0;
+  margin-block-start: ${goldenRatioSpacing(0)}px;
 `
