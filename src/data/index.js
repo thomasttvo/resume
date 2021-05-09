@@ -59,7 +59,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
       content: [
         {
           title: 'Engineering Manager',
-          company: 'Dormzi LLC.',
+          company: 'Dormzi',
           start: 'Jun 2019',
           location: 'United States (Remote)',
           skills: [
@@ -203,12 +203,14 @@ In 2013:
       content: [
         {
           title: 'Georgia Institute of Technology',
+          location: 'Atlanta, GA',
           major: 'Computer Science',
           start: '2011',
           end: '2012',
         },
         {
           title: 'Clayton State University',
+          location: 'Atlanta, GA',
           major: 'Computer Science',
           start: '2010',
           end: '2011',
