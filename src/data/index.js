@@ -1,12 +1,30 @@
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faPhoneSquareAlt } from '@fortawesome/free-solid-svg-icons'
+
 export const data = {
   title: 'Thomas Vo',
   subtitle: 'Engineer, Entrepreneur',
   sections: {
     contact: {
       content: [
-        { code: 'linkedin', content: query => query.contact?.[0] },
-        { code: 'email', content: query => query.contact?.[1] },
-        { code: 'phone', content: query => query.contact?.[2] },
+        {
+          code: 'linkedin',
+          icon: faLinkedin,
+          href: content => `https://linkedin.com/in/${content}`,
+          content: query => query.contact?.[0],
+        },
+        {
+          code: 'email',
+          icon: faPhoneSquareAlt,
+          href: content => `tel:${content}`,
+          content: query => query.contact?.[1],
+        },
+        {
+          code: 'phone',
+          icon: faEnvelope,
+          href: content => `mailto:${content}`,
+          content: query => query.contact?.[2],
+        },
       ],
     },
     summary: {
