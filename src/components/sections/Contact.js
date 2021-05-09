@@ -8,7 +8,6 @@ import { Metrics } from '@constants'
 
 export const Contact = ({ data }) => {
   const queryParam = queryString.parse(location.search, { arrayFormat: 'comma' })
-  console.log(queryParam)
   const content = data.content
     .map(item => {
       const content = item.content(queryParam)
