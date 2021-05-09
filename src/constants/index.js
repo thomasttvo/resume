@@ -8,4 +8,5 @@ export const Metrics = {
 export const Colors = {
   textColor: '#313131',
   textColorLight: '#848484',
+  textColorSideNote: 'lightblue',
 }
