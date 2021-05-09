@@ -1,10 +1,12 @@
-import { Section } from '@components/sections/components/Section'
+import { Section } from './components/Section'
+import { SubSection, SubSectionTitle } from './components/SubSection'
 import React from 'react'
 import FlexView from 'react-flexview'
 import styled from 'styled-components'
 import { goldenRatioSpacing } from '@utils'
 import { Colors, Metrics } from '@constants'
 import { RichText } from '@components'
+
 export const Experience = ({ data }) => {
   return (
     <Section title={data?.title}>
@@ -17,9 +19,9 @@ export const Experience = ({ data }) => {
 
 const Item = ({ data }) => {
   return (
-    <ItemWrapper>
+    <SubSection>
       <Block>
-        <Title>{data.title}</Title>
+        <SubSectionTitle>{data.title}</SubSectionTitle>
         <Company>{data.company}</Company>
       </Block>
       <Block>
@@ -31,19 +33,11 @@ const Item = ({ data }) => {
       <Block>
         <RichText content={data.description} />
       </Block>
-    </ItemWrapper>
+    </SubSection>
   )
 }
 
-const ItemWrapper = styled(FlexView)`
-  margin-top: ${goldenRatioSpacing(2)}px;
-  &:first-of-type {
-    margin-top: 0;
-  }
-`
-ItemWrapper.defaultProps = { column: true }
-
-const Block = styled(FlexView)`
+export const Block = styled(FlexView)`
   margin-top: ${goldenRatioSpacing(0)}px;
   &:first-of-type {
     margin-top: 0;
@@ -57,10 +51,6 @@ const Block = styled(FlexView)`
 `
 Block.defaultProps = { column: true }
 
-const Title = styled.h3`
-  font-size: ${goldenRatioSpacing(1)}px;
-  margin: 0;
-`
 const Company = styled.strong``
 const Dates = styled.div`
   font-weight: ${Metrics.fontWeightBold};
