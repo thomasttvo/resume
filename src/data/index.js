@@ -15,15 +15,18 @@ export const data = {
         },
         {
           code: 'email',
-          icon: faPhoneSquareAlt,
-          href: content => `tel:${content}`,
+          icon: faEnvelope,
+          href: content => `mailto:${content}`,
           content: query => query.contact?.[1],
         },
         {
           code: 'phone',
-          icon: faEnvelope,
-          href: content => `mailto:${content}`,
-          content: query => query.contact?.[2],
+          icon: faPhoneSquareAlt,
+          href: content => `tel:${content}`,
+          content: query => {
+            const content = query.contact?.[2]
+            return content ? `+1 ${content}` : null
+          },
         },
       ],
     },
