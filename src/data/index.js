@@ -10,7 +10,8 @@ export const data = {
         {
           code: 'linkedin',
           icon: faLinkedin,
-          href: content => `https://linkedin.com/in/thomasttvo`,
+          href: content => `https://linkedin.com/in/${content}`,
+          content: () => `thomasttvo`,
         },
       ],
     },
