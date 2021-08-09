@@ -90,6 +90,7 @@ As a leader, Thomas values building wholesome company cultures, developing compa
           company: 'Dormzi',
           link: 'https://www.linkedin.com/company/dormzi',
           start: 'Jun 2019',
+          end: 'Jul 2021',
           location: 'United States (Remote)',
           skills: [
             ['React Web', 'React Native', 'MongoDB', 'XState'],
