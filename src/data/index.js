@@ -11,22 +11,7 @@ export const data = {
           code: 'linkedin',
           icon: faLinkedin,
           href: content => `https://linkedin.com/in/${content}`,
-          content: query => query.contact?.[0],
-        },
-        {
-          code: 'email',
-          icon: faEnvelope,
-          href: content => `mailto:${content}`,
-          content: query => query.contact?.[1],
-        },
-        {
-          code: 'phone',
-          icon: faPhoneSquareAlt,
-          href: content => `tel:${content}`,
-          content: query => {
-            const content = query.contact?.[2]
-            return content ? `+1 ${content}` : null
-          },
+          content: () => `thomasttvo`,
         },
       ],
     },
