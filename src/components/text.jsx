@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import { Metrics } from '@constants/index'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import PropTypes from 'prop-types'
-import React from 'react'
 
 export const Text = styled.span``
 export const TextPre = styled.span`
@@ -17,19 +15,14 @@ export const TextStrong = styled.strong`
 
 export const Icon = ({ name }) => <FontAwesomeIcon icon={name} />
 export const IconBrand = ({ name }) => <FontAwesomeIcon icon={['fab', name]} />
-export const Link = styled(({ newTab, href, children, ...props }) => (
-  <a {...props} href={href} {...(newTab && { target: '_blank' })}>
+export const Link = styled(({ newTab, href, children, emphasized, ...props }) => (
+  <a {...props} href={href} {...(newTab && { target: '_blank', rel: 'noopener noreferrer' })}>
     {children || href}
   </a>
 ))`
   color: inherit;
-  text-decoration: ${props => (props.emphasized ? 'underline' : 'none')};
+  text-decoration: ${props => (props.$emphasized ? 'underline' : 'none')};
   &:visited {
     color: inherit;
   }
 `
-Link.propTypes = {
-  newTab: PropTypes.bool,
-  href: PropTypes.string,
-  emphasized: PropTypes.bool,
-}

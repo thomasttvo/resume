@@ -1,7 +1,6 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import { TextP } from '@components'
 import { List, ListItem } from '@components/List'
-import FlexView from 'react-flexview'
 import { goldenRatioSpacing } from '@utils/index'
 import styled from 'styled-components'
 
@@ -47,7 +46,9 @@ const mapConfigToComponents = configItems => {
   return mapItems(configItems)
 }
 
-const Wrapper = styled(FlexView)`
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   & > * {
     margin: ${goldenRatioSpacing(0)}px 0 0 0 !important;
     margin-block-start: ${goldenRatioSpacing(0)}px !important;
@@ -57,4 +58,3 @@ const Wrapper = styled(FlexView)`
     margin-block-start: 0 !important;
   }
 `
-Wrapper.defaultProps = { column: true }

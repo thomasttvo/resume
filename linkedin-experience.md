@@ -1,0 +1,772 @@
+- generic [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - button "Skip to search" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: Skip to search
+      - button "Skip to main content" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+        - generic [ref=e16]: Close jump menu
+    - banner "Global Navigation" [ref=e17]:
+      - generic [ref=e18]:
+        - link "LinkedIn" [ref=e19] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e22]:
+            - img [ref=e23]
+        - generic [ref=e27]:
+          - combobox "Search" [ref=e28]
+          - generic:
+            - img
+        - navigation "Primary Navigation" [ref=e29]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "new feed updates notifications Home" [ref=e32] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e33]:
+                  - generic [ref=e36]: new feed updates notifications
+                  - img [ref=e40]
+                - generic "Home" [ref=e42]
+            - listitem [ref=e43]:
+              - link "My Network" [ref=e44] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - img [ref=e48]
+                - generic "My Network" [ref=e50]
+            - listitem [ref=e51]:
+              - link "Jobs" [ref=e52] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e56]
+                - generic "Jobs" [ref=e58]
+            - listitem [ref=e59]:
+              - link "Messaging" [ref=e60] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e64]
+                - generic "Messaging" [ref=e66]
+            - listitem [ref=e67]:
+              - link "1 new notification Notifications" [ref=e265] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: "1"
+                    - generic [ref=e269]: 1 new notification
+                  - img [ref=e273]
+                - generic "Notifications" [ref=e74]
+            - listitem [ref=e75]:
+              - button "Thomas Vo Me" [ref=e77] [cursor=pointer]:
+                - img "Thomas Vo" [ref=e78]
+                - generic [ref=e79]:
+                  - text: Me
+                  - img [ref=e80]
+            - listitem [ref=e82]:
+              - button "For Business" [ref=e84] [cursor=pointer]:
+                - img [ref=e88]
+                - generic "For Business" [ref=e90]:
+                  - text: For Business
+                  - img [ref=e91]
+            - listitem [ref=e93]:
+              - link "Advertise" [ref=e94] [cursor=pointer]:
+                - /url: https://www.linkedin.com/campaignmanager/accounts?
+                - img [ref=e98]
+                - generic "Advertise" [ref=e101]
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e276] [cursor=pointer]:
+          - generic [ref=e277]:
+            - img "Thomas Vo" [ref=e278]
+            - generic [ref=e280]: Status is online
+          - generic [ref=e281]:
+            - generic [ref=e282]: Thomas Vo
+            - generic [ref=e283]: Mobile Engineering (React Native) @ OpenSpace
+        - generic [ref=e117]:
+          - main "Experience" [ref=e284]:
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - button "Back to the main profile page" [active] [ref=e287] [cursor=pointer]:
+                  - img [ref=e288]
+                - generic [ref=e291]:
+                  - heading "Experience" [level=1] [ref=e292]
+                  - button "Add new experience" [ref=e296] [cursor=pointer]:
+                    - img "Add new experience" [ref=e299]:
+                      - img [ref=e300]
+              - list [ref=e305]:
+                - listitem [ref=e306]:
+                  - generic [ref=e308]:
+                    - link "OpenSpace logo" [ref=e310] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/18223755/
+                      - img "OpenSpace logo" [ref=e313]
+                    - generic [ref=e314]:
+                      - link "OpenSpace Full-time · 4 yrs 6 mos San Francisco Bay Area" [ref=e316] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/18223755/
+                        - generic [ref=e320]:
+                          - generic [ref=e321]: OpenSpace
+                          - generic [ref=e322]: OpenSpace
+                        - generic [ref=e323]:
+                          - generic [ref=e324]: Full-time · 4 yrs 6 mos
+                          - generic [ref=e325]: Full-time · 4 yrs 6 mos
+                        - generic [ref=e326]:
+                          - generic [ref=e327]: San Francisco Bay Area
+                          - generic [ref=e328]: San Francisco Bay Area
+                      - list [ref=e330]:
+                        - listitem [ref=e331]:
+                          - list [ref=e335]:
+                            - listitem [ref=e336]:
+                              - generic [ref=e339]:
+                                - generic [ref=e340]:
+                                  - link "Senior Software Engineer II (React Native) Jun 2024 to Present · 1 yr 9 mos" [ref=e342] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C2421604620%29&trackingId=iWCB%2BuU7SK2J%2FwFUnw8x0g%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                                    - generic [ref=e346]:
+                                      - generic [ref=e347]: Senior Software Engineer II (React Native)
+                                      - generic [ref=e348]: Senior Software Engineer II (React Native)
+                                    - generic [ref=e349]:
+                                      - generic [ref=e350]: Jun 2024 - Present · 1 yr 9 mos
+                                      - generic [ref=e351]: Jun 2024 to Present · 1 yr 9 mos
+                                  - list [ref=e353]:
+                                    - listitem [ref=e354]:
+                                      - list [ref=e356]:
+                                        - listitem [ref=e357]:
+                                          - generic [ref=e360]:
+                                            - generic [ref=e361]: "- Led and delivered an initiative that's \"category-defining\" for the company with 3 sub-projects running simultaneously. - Own the core capture features generating terabytes of 4K videos every month. - Work directly with the data science team and own several data charts in Amplitude and Metabase that help assess product health. - Work directly with camera vendors and their engineering teams to ensure seamless camera interactions. Set up the transition of our communication from email to Lark to improve efficiency. - Mentor and distribute knowledge of the capture pipeline to the rest of the team and the company. - Collaborate with customer support on troubleshooting best practices and documentation improving turn-around time for support and decreasing escalation requests. - Involved in development of cutting-edge proprietary AI features. - Support other team members in implementing best practices and delivering simplified code structures. - Continuously monitor for UX issues and collaborate with designers to resolve those issues."
+                                            - generic [ref=e362]: "- Led and delivered an initiative that's \"category-defining\" for the company with 3 sub-projects running simultaneously. - Own the core capture features generating terabytes of 4K videos every month. - Work directly with the data science team and own several data charts in Amplitude and Metabase that help assess product health. - Work directly with camera vendors and their engineering teams to ensure seamless camera interactions. Set up the transition of our communication from email to Lark to improve efficiency. - Mentor and distribute knowledge of the capture pipeline to the rest of the team and the company. - Collaborate with customer support on troubleshooting best practices and documentation improving turn-around time for support and decreasing escalation requests. - Involved in development of cutting-edge proprietary AI features. - Support other team members in implementing best practices and delivering simplified code structures. - Continuously monitor for UX issues and collaborate with designers to resolve those issues."
+                                - link "Edit position Senior Software Engineer II (React Native)" [ref=e366] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C2421604620%29&trackingId=aNOJSCC2SXOLt2L8f6ct%2BQ%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                                  - img "Edit position Senior Software Engineer II (React Native)" [ref=e368]
+                            - listitem [ref=e370]:
+                              - generic [ref=e373]:
+                                - generic [ref=e374]:
+                                  - link "Senior Software Engineer (React Native) Sep 2021 to Jun 2024 · 2 yrs 10 mos Remote" [ref=e376] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C1836643275%29&trackingId=Wf0r93j8ROKuu%2FSKcgKIvw%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                                    - generic [ref=e380]:
+                                      - generic [ref=e381]: Senior Software Engineer (React Native)
+                                      - generic [ref=e382]: Senior Software Engineer (React Native)
+                                    - generic [ref=e383]:
+                                      - generic [ref=e384]: Sep 2021 - Jun 2024 · 2 yrs 10 mos
+                                      - generic [ref=e385]: Sep 2021 to Jun 2024 · 2 yrs 10 mos
+                                    - generic [ref=e386]:
+                                      - generic [ref=e387]: Remote
+                                      - generic [ref=e388]: Remote
+                                  - list [ref=e390]:
+                                    - listitem [ref=e391]:
+                                      - list [ref=e393]:
+                                        - listitem [ref=e394]:
+                                          - generic [ref=e397]:
+                                            - generic [ref=e398]: "React Native, Redux (Toolkit), Typescript, Jest, Kotlin, ObjC, React Native Testing Library As one of only two engineers responsible for the mobile app that powers the 3D capturing process of an industry-leading reality capture company, I accomplished the following: - Developed a background upload capability using Kotlin and Objective-C, improving user experience by allowing them to continue using the app while large files were being processed. - Resolved technical problems related to predominantly offline usage user behavior and large file processing. - Worked with a heavily event-oriented system that utilizes \"redux-observables\". - Authored the \"@openspacelabs/react-native-zoomable-view\" library, which is the only React Native library on the market that allows stable zooming and pinching of images with the correct zoom center. - Maintained and built upon the Jest test suite that primarily uses react-native-testing-library. - Developed additional features, improved legacy code, and gained a deep understanding of the app's architecture by working in all areas of the codebase."
+                                            - generic [ref=e399]: "React Native, Redux (Toolkit), Typescript, Jest, Kotlin, ObjC, React Native Testing Library As one of only two engineers responsible for the mobile app that powers the 3D capturing process of an industry-leading reality capture company, I accomplished the following: - Developed a background upload capability using Kotlin and Objective-C, improving user experience by allowing them to continue using the app while large files were being processed. - Resolved technical problems related to predominantly offline usage user behavior and large file processing. - Worked with a heavily event-oriented system that utilizes \"redux-observables\". - Authored the \"@openspacelabs/react-native-zoomable-view\" library, which is the only React Native library on the market that allows stable zooming and pinching of images with the correct zoom center. - Maintained and built upon the Jest test suite that primarily uses react-native-testing-library. - Developed additional features, improved legacy code, and gained a deep understanding of the app's architecture by working in all areas of the codebase."
+                                - link "Edit position Senior Software Engineer (React Native)" [ref=e403] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C1836643275%29&trackingId=vgpFqrzgRECjRjEmeiRDsg%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                                  - img "Edit position Senior Software Engineer (React Native)" [ref=e405]
+                - listitem [ref=e407]:
+                  - generic [ref=e409]:
+                    - link "Audo logo" [ref=e411] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/11714116/
+                      - img "Audo logo" [ref=e414]
+                    - generic [ref=e415]:
+                      - link "Engineering Manager / Lead Engineer Audo Jun 2019 to Jul 2021 · 2 yrs 2 mos United States" [ref=e417] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C1764503988%29&trackingId=rgNWN9yjRDqB4e9%2BsXQoJg%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e421]:
+                          - generic [ref=e422]: Engineering Manager / Lead Engineer
+                          - generic [ref=e423]: Engineering Manager / Lead Engineer
+                        - generic [ref=e424]:
+                          - generic [ref=e425]: Audo
+                          - generic [ref=e426]: Audo
+                        - generic [ref=e427]:
+                          - generic [ref=e428]: Jun 2019 - Jul 2021 · 2 yrs 2 mos
+                          - generic [ref=e429]: Jun 2019 to Jul 2021 · 2 yrs 2 mos
+                        - generic [ref=e430]:
+                          - generic [ref=e431]: United States
+                          - generic [ref=e432]: United States
+                      - list [ref=e434]:
+                        - listitem [ref=e435]:
+                          - list [ref=e437]:
+                            - listitem [ref=e438]:
+                              - generic [ref=e441]:
+                                - generic [ref=e442]: React Native, React Web, MongoDB, XState, Apollo GraphQL, Firebase, Firestore, Jest, Enzyme, Testing Library Connected via Toptal - Led a team of five engineers (including two QA engineers) distributed across the world, including three Toptal engineers. I interviewed and hired the other two outside of Toptal. - Took over a codebase with high technical debt from an outsourced party and rebuilt the team from the ground up, putting agile practices and lean software development culture in place. Worked with QA engineers to stabilize the product, resolving numerous technical issues and implementing new features. - Rebuilt the infrastructure of the React Native app, cleaning up thousands of lines of repetitive code while establishing a strong foundation for future development. Orchestrated the rest of the team to build new features on top of this infrastructure. - Handled the migration of server-side architecture from Express, Firebase Functions, and Firestore to Apollo, Heroku, and MongoDB Atlas, resulting in better extensibility, security, and simplified logic. - Planned and held regular product meetings to ensure effective collaboration among product, design, and development teams. This facilitated maximum product impact and minimum development effort while promoting high ownership of various product parts among team members. - Built from scratch a form manager library (using XState) that generates a form based on a simple JSON object and abstracts out all complex logic like state management, validation, formatting, submitting, loading animation, and more. - Developed numerous features for both React Web and React Native, and wrote unit tests using Jest, Testing Library, and Enzyme. - Optimized individual end-to-end test cases (built with WebdriverIO) and built a system leveraging AWS Device Farm to split end-to-end tests into 50 instances, cutting down test time from 40 minutes to 7 minutes.
+                                - generic [ref=e443]: React Native, React Web, MongoDB, XState, Apollo GraphQL, Firebase, Firestore, Jest, Enzyme, Testing Library Connected via Toptal - Led a team of five engineers (including two QA engineers) distributed across the world, including three Toptal engineers. I interviewed and hired the other two outside of Toptal. - Took over a codebase with high technical debt from an outsourced party and rebuilt the team from the ground up, putting agile practices and lean software development culture in place. Worked with QA engineers to stabilize the product, resolving numerous technical issues and implementing new features. - Rebuilt the infrastructure of the React Native app, cleaning up thousands of lines of repetitive code while establishing a strong foundation for future development. Orchestrated the rest of the team to build new features on top of this infrastructure. - Handled the migration of server-side architecture from Express, Firebase Functions, and Firestore to Apollo, Heroku, and MongoDB Atlas, resulting in better extensibility, security, and simplified logic. - Planned and held regular product meetings to ensure effective collaboration among product, design, and development teams. This facilitated maximum product impact and minimum development effort while promoting high ownership of various product parts among team members. - Built from scratch a form manager library (using XState) that generates a form based on a simple JSON object and abstracts out all complex logic like state management, validation, formatting, submitting, loading animation, and more. - Developed numerous features for both React Web and React Native, and wrote unit tests using Jest, Testing Library, and Enzyme. - Optimized individual end-to-end test cases (built with WebdriverIO) and built a system leveraging AWS Device Farm to split end-to-end tests into 50 instances, cutting down test time from 40 minutes to 7 minutes.
+                    - link "Edit position Engineering Manager / Lead Engineer" [ref=e447] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C1764503988%29&trackingId=PGuq%2BtsfSwO2%2B1fmeJqMBA%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Engineering Manager / Lead Engineer" [ref=e449]
+                - listitem [ref=e451]:
+                  - generic [ref=e453]:
+                    - link "Ohana logo" [ref=e455] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/13472034/
+                      - img "Ohana logo" [ref=e458]
+                    - generic [ref=e459]:
+                      - link "Co-Founder & CTO Ohana Jan 2017 to Jul 2020 · 3 yrs 7 mos Singapore" [ref=e461] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C1123667454%29&trackingId=NxVMvwShRPm9bA%2Blt%2Fjp6Q%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e465]:
+                          - generic [ref=e466]: Co-Founder & CTO
+                          - generic [ref=e467]: Co-Founder & CTO
+                        - generic [ref=e468]:
+                          - generic [ref=e469]: Ohana
+                          - generic [ref=e470]: Ohana
+                        - generic [ref=e471]:
+                          - generic [ref=e472]: Jan 2017 - Jul 2020 · 3 yrs 7 mos
+                          - generic [ref=e473]: Jan 2017 to Jul 2020 · 3 yrs 7 mos
+                        - generic [ref=e474]:
+                          - generic [ref=e475]: Singapore
+                          - generic [ref=e476]: Singapore
+                      - list [ref=e478]:
+                        - listitem [ref=e479]:
+                          - list [ref=e481]:
+                            - listitem [ref=e482]:
+                              - generic [ref=e485]:
+                                - generic [ref=e486]: React Web, React Native, AngularJS, ExpressJS, MongoDB, Highcharts, Firebase, Sketch, Tableau - Founded and managed the entire product team of the most advanced apartment marketplace in Vietnam (Airbnb-like, for residential rentals) on React/React Native. The platform reached 200,000 users within the first 2 years serving 1,500 finders every day. - Built from scratch the entire stack of the marketplace including mobile apps on React Native, APIs on Express.js, and database with MongoDB. - Developed from scratch the entire authentication system to replace Firebase due to its low performance in Asia. Created a concurrency system to sync users' offline data across multiple devices. - Migrated all of the AngularJS components from the web app to React Native while rewriting ZERO lines of controller code. - Used data analytics to identify and rewrite several MongoDB queries with performance issues. - Created a roommate-matching algorithm based on 22 different lifestyle qualities. Built a dynamic form wizard where each step adapts to answers in the previous steps. The wizard engine is decoupled enough to be reused on both React Native and Angular. - Built several admin features on React including data charts (with Highcharts), CRMs, and user management. - Developed from scratch a simpler alternative to Redux but highly tailored to the current system. - Developed financial models, laid out business strategy, raised funding, and participated in strategic investor meetings. - Designed from scratch the UI/UX, and branding of the product with Sketch and, later on, led the product design team. - Developed Tableau charts connected to MongoDB to perform data analytics resulting in 2x the GMV of the marketplace.
+                                - generic [ref=e487]: React Web, React Native, AngularJS, ExpressJS, MongoDB, Highcharts, Firebase, Sketch, Tableau - Founded and managed the entire product team of the most advanced apartment marketplace in Vietnam (Airbnb-like, for residential rentals) on React/React Native. The platform reached 200,000 users within the first 2 years serving 1,500 finders every day. - Built from scratch the entire stack of the marketplace including mobile apps on React Native, APIs on Express.js, and database with MongoDB. - Developed from scratch the entire authentication system to replace Firebase due to its low performance in Asia. Created a concurrency system to sync users' offline data across multiple devices. - Migrated all of the AngularJS components from the web app to React Native while rewriting ZERO lines of controller code. - Used data analytics to identify and rewrite several MongoDB queries with performance issues. - Created a roommate-matching algorithm based on 22 different lifestyle qualities. Built a dynamic form wizard where each step adapts to answers in the previous steps. The wizard engine is decoupled enough to be reused on both React Native and Angular. - Built several admin features on React including data charts (with Highcharts), CRMs, and user management. - Developed from scratch a simpler alternative to Redux but highly tailored to the current system. - Developed financial models, laid out business strategy, raised funding, and participated in strategic investor meetings. - Designed from scratch the UI/UX, and branding of the product with Sketch and, later on, led the product design team. - Developed Tableau charts connected to MongoDB to perform data analytics resulting in 2x the GMV of the marketplace.
+                        - listitem [ref=e488]:
+                          - list [ref=e490]:
+                            - listitem [ref=e491]:
+                              - link "Thumbnail for Ohana App Screenshots Ohana App Screenshots" [ref=e492] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/1123667454/multiple-media-viewer?profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY&treasuryMediaId=1618076041492&type=IMAGE
+                                - generic [ref=e493]:
+                                  - generic "Thumbnail for Ohana App Screenshots" [ref=e495]:
+                                    - figure [ref=e496]
+                                  - generic [ref=e498]:
+                                    - generic [ref=e499]: Ohana App Screenshots
+                                    - generic [ref=e500]: Ohana App Screenshots
+                            - listitem [ref=e501]:
+                              - link "Thumbnail for Ohana on Shark Tank Vietnam Ohana on Shark Tank Vietnam" [ref=e502] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/1123667454/multiple-media-viewer?profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY&treasuryMediaId=1618076041295&type=IMAGE
+                                - generic [ref=e503]:
+                                  - generic "Thumbnail for Ohana on Shark Tank Vietnam" [ref=e505]:
+                                    - figure [ref=e506]
+                                  - generic [ref=e508]:
+                                    - generic [ref=e509]: Ohana on Shark Tank Vietnam
+                                    - generic [ref=e510]: Ohana on Shark Tank Vietnam
+                            - listitem [ref=e511]:
+                              - link "Thumbnail for Ohanaliving.co Ohanaliving.co" [ref=e512] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/1123667454/multiple-media-viewer?profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY&treasuryMediaId=1518333769087&type=IMAGE
+                                - generic [ref=e513]:
+                                  - generic "Thumbnail for Ohanaliving.co" [ref=e515]:
+                                    - figure [ref=e516]
+                                  - generic [ref=e518]:
+                                    - generic [ref=e519]: Ohanaliving.co
+                                    - generic [ref=e520]: Ohanaliving.co
+                    - link "Edit position Co-Founder & CTO" [ref=e524] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C1123667454%29&trackingId=%2F8%2FA8L9yRUa5%2FWJp0uwCsw%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Co-Founder & CTO" [ref=e526]
+                - listitem [ref=e528]:
+                  - generic [ref=e530]:
+                    - link "KodeQ logo" [ref=e532] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/3785823/
+                      - img "KodeQ logo" [ref=e535]
+                    - generic [ref=e536]:
+                      - link "Co-Founder & CEO KodeQ Sep 2014 to Dec 2016 · 2 yrs 4 mos Greater Atlanta Area" [ref=e538] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C579673820%29&trackingId=v879UQz8Q5GpGm4tuW4exw%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e542]:
+                          - generic [ref=e543]: Co-Founder & CEO
+                          - generic [ref=e544]: Co-Founder & CEO
+                        - generic [ref=e545]:
+                          - generic [ref=e546]: KodeQ
+                          - generic [ref=e547]: KodeQ
+                        - generic [ref=e548]:
+                          - generic [ref=e549]: Sep 2014 - Dec 2016 · 2 yrs 4 mos
+                          - generic [ref=e550]: Sep 2014 to Dec 2016 · 2 yrs 4 mos
+                        - generic [ref=e551]:
+                          - generic [ref=e552]: Greater Atlanta Area
+                          - generic [ref=e553]: Greater Atlanta Area
+                      - list [ref=e555]:
+                        - listitem [ref=e556]:
+                          - list [ref=e558]:
+                            - listitem [ref=e559]:
+                              - generic [ref=e562]:
+                                - generic [ref=e563]: "-Built a software engineer team in Ho Chi Minh city as augmented staff members for the AngularJS team at Weather.com (based in Atlanta, GA). - Facilitated remote collaboration between dev teams distributed on the two opposite sides of the globe. - Participated in the sales, management, and operations—growing the company to 15 engineers."
+                                - generic [ref=e564]: "-Built a software engineer team in Ho Chi Minh city as augmented staff members for the AngularJS team at Weather.com (based in Atlanta, GA). - Facilitated remote collaboration between dev teams distributed on the two opposite sides of the globe. - Participated in the sales, management, and operations—growing the company to 15 engineers."
+                    - link "Edit position Co-Founder & CEO" [ref=e568] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C579673820%29&trackingId=eYC5b%2Bl8SqWGVou5nw5hLQ%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Co-Founder & CEO" [ref=e570]
+                - listitem [ref=e572]:
+                  - generic [ref=e574]:
+                    - link "ADP logo" [ref=e576] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/1463/
+                      - img "ADP logo" [ref=e579]
+                    - generic [ref=e580]:
+                      - link "Software Engineer V ADP Dec 2014 to Jul 2015 · 8 mos Alpharetta, GA" [ref=e582] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C614221736%29&trackingId=cGVOeEa1QTmj4J3kUnZo0A%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e586]:
+                          - generic [ref=e587]: Software Engineer V
+                          - generic [ref=e588]: Software Engineer V
+                        - generic [ref=e589]:
+                          - generic [ref=e590]: ADP
+                          - generic [ref=e591]: ADP
+                        - generic [ref=e592]:
+                          - generic [ref=e593]: Dec 2014 - Jul 2015 · 8 mos
+                          - generic [ref=e594]: Dec 2014 to Jul 2015 · 8 mos
+                        - generic [ref=e595]:
+                          - generic [ref=e596]: Alpharetta, GA
+                          - generic [ref=e597]: Alpharetta, GA
+                      - list [ref=e599]:
+                        - listitem [ref=e600]:
+                          - list [ref=e602]:
+                            - listitem [ref=e603]:
+                              - generic [ref=e606]:
+                                - generic [ref=e607]: Vanilla JS/HTML/CSS - Joined the effort of rebuilding the entire web product by transforming a scattered system of web technologies into a centralized system with unified standards and up-to-date technology using a proprietary framework that was built in-house. - Performed UI/UX design with Sketch. - Built upon the original framework to provide more tools and better developer experience
+                                - generic [ref=e608]: Vanilla JS/HTML/CSS - Joined the effort of rebuilding the entire web product by transforming a scattered system of web technologies into a centralized system with unified standards and up-to-date technology using a proprietary framework that was built in-house. - Performed UI/UX design with Sketch. - Built upon the original framework to provide more tools and better developer experience
+                    - link "Edit position Software Engineer V" [ref=e612] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C614221736%29&trackingId=%2FQ0R1rI3QwuLA%2BboZFmvCA%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Software Engineer V" [ref=e614]
+                - listitem [ref=e616]:
+                  - generic [ref=e618]:
+                    - link "The Weather Company logo" [ref=e620] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/3634137/
+                      - img "The Weather Company logo" [ref=e623]
+                    - generic [ref=e624]:
+                      - link "Senior Javascript Application Developer The Weather Company, an IBM Business Aug 2013 to Nov 2014 · 1 yr 4 mos Atlanta Metropolitan Area" [ref=e626] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C434592269%29&trackingId=IVlnpp%2FmTI2IY8kEJBpBCA%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e630]:
+                          - generic [ref=e631]: Senior Javascript Application Developer
+                          - generic [ref=e632]: Senior Javascript Application Developer
+                        - generic [ref=e633]:
+                          - generic [ref=e634]: The Weather Company, an IBM Business
+                          - generic [ref=e635]: The Weather Company, an IBM Business
+                        - generic [ref=e636]:
+                          - generic [ref=e637]: Aug 2013 - Nov 2014 · 1 yr 4 mos
+                          - generic [ref=e638]: Aug 2013 to Nov 2014 · 1 yr 4 mos
+                        - generic [ref=e639]:
+                          - generic [ref=e640]: Atlanta Metropolitan Area
+                          - generic [ref=e641]: Atlanta Metropolitan Area
+                      - list [ref=e643]:
+                        - listitem [ref=e644]:
+                          - list [ref=e646]:
+                            - listitem [ref=e647]:
+                              - generic [ref=e650]:
+                                - generic [ref=e651]: AngularJS, Sass, Facebook API - Joined the core team that establishes new programming standards for the front end of a newly built content management system on Weather.com. - Designed and implemented foundational Angular services and directives that are later used by other developers to build testable application modules. - Transferred knowledge and experiences to several team members who were new to AngularJS. - Worked with CSS and JavaScript animations to deliver highly interactive web content to visitors. Optimized the critical rendering path, bringing page load time from five seconds to two seconds. - Trained and mentored new team members. - Performed code review during development cycles to ensure code quality and standards. - Used a Highcharts library to deliver charting solutions across the weather visualization features.
+                                - generic [ref=e652]: AngularJS, Sass, Facebook API - Joined the core team that establishes new programming standards for the front end of a newly built content management system on Weather.com. - Designed and implemented foundational Angular services and directives that are later used by other developers to build testable application modules. - Transferred knowledge and experiences to several team members who were new to AngularJS. - Worked with CSS and JavaScript animations to deliver highly interactive web content to visitors. Optimized the critical rendering path, bringing page load time from five seconds to two seconds. - Trained and mentored new team members. - Performed code review during development cycles to ensure code quality and standards. - Used a Highcharts library to deliver charting solutions across the weather visualization features.
+                        - listitem [ref=e653]:
+                          - list [ref=e655]:
+                            - listitem [ref=e656]:
+                              - link "Thumbnail for The Weather Forecast Graphs The Weather Forecast Graphs The Weather Forecast Graphs add an extra comprehensive touch to weather visualization by taking it to a math-heavy level that helps power user identify weather trends and make accurate decisions." [ref=e657] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/434592269/multiple-media-viewer?profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY&treasuryMediaId=50362723&type=IMAGE
+                                - generic [ref=e658]:
+                                  - generic "Thumbnail for The Weather Forecast Graphs" [ref=e660]:
+                                    - figure [ref=e661]
+                                  - generic [ref=e662]:
+                                    - generic [ref=e663]:
+                                      - generic [ref=e664]: The Weather Forecast Graphs
+                                      - generic [ref=e665]: The Weather Forecast Graphs
+                                    - generic [ref=e669]:
+                                      - generic [ref=e670]: The Weather Forecast Graphs add an extra comprehensive touch to weather visualization by taking it to a math-heavy level that helps power user identify weather trends and make accurate decisions.
+                                      - generic [ref=e671]: The Weather Forecast Graphs add an extra comprehensive touch to weather visualization by taking it to a math-heavy level that helps power user identify weather trends and make accurate decisions.
+                            - listitem [ref=e672]:
+                              - link "Thumbnail for The Weather Carousel The Weather Carousel The Weather Carousel is a class of products that are used to display local weather information in the simplest and most captivating manner." [ref=e673] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/434592269/multiple-media-viewer?profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY&treasuryMediaId=50362691&type=IMAGE
+                                - generic [ref=e674]:
+                                  - generic "Thumbnail for The Weather Carousel" [ref=e676]:
+                                    - figure [ref=e677]
+                                  - generic [ref=e678]:
+                                    - generic [ref=e679]:
+                                      - generic [ref=e680]: The Weather Carousel
+                                      - generic [ref=e681]: The Weather Carousel
+                                    - generic [ref=e685]:
+                                      - generic [ref=e686]: The Weather Carousel is a class of products that are used to display local weather information in the simplest and most captivating manner.
+                                      - generic [ref=e687]: The Weather Carousel is a class of products that are used to display local weather information in the simplest and most captivating manner.
+                            - listitem [ref=e688]:
+                              - link "Thumbnail for The Weather Channel The Weather Channel" [ref=e689] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/434592269/multiple-media-viewer?profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY&treasuryMediaId=50036994&type=IMAGE
+                                - generic [ref=e690]:
+                                  - generic "Thumbnail for The Weather Channel" [ref=e692]:
+                                    - figure [ref=e693]
+                                  - generic [ref=e695]:
+                                    - generic [ref=e696]: The Weather Channel
+                                    - generic [ref=e697]: The Weather Channel
+                    - link "Edit position Senior Javascript Application Developer" [ref=e701] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C434592269%29&trackingId=a%2FN16YQ%2BSNKUsSweP0qi9Q%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Senior Javascript Application Developer" [ref=e703]
+                - listitem [ref=e705]:
+                  - generic [ref=e707]:
+                    - link "PlanetArt logo" [ref=e709] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/10166893/
+                      - img "PlanetArt logo" [ref=e712]
+                    - generic [ref=e713]:
+                      - link "Javascript Application Developer CafePress Inc. Apr 2013 to Aug 2013 · 5 mos Atlanta Metropolitan Area" [ref=e715] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C386428522%29&trackingId=q9nSzN6nSyWsJd19bEuS5Q%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e719]:
+                          - generic [ref=e720]: Javascript Application Developer
+                          - generic [ref=e721]: Javascript Application Developer
+                        - generic [ref=e722]:
+                          - generic [ref=e723]: CafePress Inc.
+                          - generic [ref=e724]: CafePress Inc.
+                        - generic [ref=e725]:
+                          - generic [ref=e726]: Apr 2013 - Aug 2013 · 5 mos
+                          - generic [ref=e727]: Apr 2013 to Aug 2013 · 5 mos
+                        - generic [ref=e728]:
+                          - generic [ref=e729]: Atlanta Metropolitan Area
+                          - generic [ref=e730]: Atlanta Metropolitan Area
+                      - list [ref=e732]:
+                        - listitem [ref=e733]:
+                          - list [ref=e735]:
+                            - listitem [ref=e736]:
+                              - generic [ref=e739]:
+                                - generic [ref=e740]: BackBoneJs, FabricJs, RequireJs, HTML5 Canvas, AngularJs, EasyXDM (CORS). Worked under the EZPrints division. Participated in the development of a web app that helps users customize merchandise printing. The app is used on www.targetphoto.com and www.disneyphotopass.com. - Participated in the process of upgrading the formerly Flash application to a HTML5/Javascript Application based on the BackBoneJs framework that offers compatibility with present and future browser technology. - Working with HTML5 Canvas and FabricJs to create a simple but interactive canvas that allows customers to customize printable products - Successfully implemented CORS (Cross Site Request Origin) on an embeddable javascript application - Worked with iframe to create a fresh runtime environment for the embedded javascript application.
+                                - generic [ref=e741]: BackBoneJs, FabricJs, RequireJs, HTML5 Canvas, AngularJs, EasyXDM (CORS). Worked under the EZPrints division. Participated in the development of a web app that helps users customize merchandise printing. The app is used on www.targetphoto.com and www.disneyphotopass.com. - Participated in the process of upgrading the formerly Flash application to a HTML5/Javascript Application based on the BackBoneJs framework that offers compatibility with present and future browser technology. - Working with HTML5 Canvas and FabricJs to create a simple but interactive canvas that allows customers to customize printable products - Successfully implemented CORS (Cross Site Request Origin) on an embeddable javascript application - Worked with iframe to create a fresh runtime environment for the embedded javascript application.
+                        - listitem [ref=e742]:
+                          - list [ref=e744]:
+                            - listitem [ref=e745]:
+                              - link "Thumbnail for EZPrints Javascript Product Builder EZPrints Javascript Product Builder" [ref=e746] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/50009006/single-media-viewer?type=IMAGE&profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY
+                                - generic [ref=e747]:
+                                  - generic "Thumbnail for EZPrints Javascript Product Builder" [ref=e749]:
+                                    - figure [ref=e750]
+                                  - generic [ref=e752]:
+                                    - generic [ref=e753]: EZPrints Javascript Product Builder
+                                    - generic [ref=e754]: EZPrints Javascript Product Builder
+                    - link "Edit position Javascript Application Developer" [ref=e758] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C386428522%29&trackingId=GpAmS1dvTyScQQ4UOyEMdQ%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Javascript Application Developer" [ref=e760]
+                - listitem [ref=e762]:
+                  - generic [ref=e764]:
+                    - link "Tentail logo" [ref=e766] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/2394490/
+                      - img "Tentail logo" [ref=e769]
+                    - generic [ref=e770]:
+                      - link "Javascript Application Developer Tentail Dec 2012 to Apr 2013 · 5 mos Atlanta Metropolitan Area" [ref=e772] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C359907225%29&trackingId=%2Bh3yNOIsRdyxfT%2FoLSPJog%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e776]:
+                          - generic [ref=e777]: Javascript Application Developer
+                          - generic [ref=e778]: Javascript Application Developer
+                        - generic [ref=e779]:
+                          - generic [ref=e780]: Tentail
+                          - generic [ref=e781]: Tentail
+                        - generic [ref=e782]:
+                          - generic [ref=e783]: Dec 2012 - Apr 2013 · 5 mos
+                          - generic [ref=e784]: Dec 2012 to Apr 2013 · 5 mos
+                        - generic [ref=e785]:
+                          - generic [ref=e786]: Atlanta Metropolitan Area
+                          - generic [ref=e787]: Atlanta Metropolitan Area
+                      - list [ref=e789]:
+                        - listitem [ref=e790]:
+                          - list [ref=e792]:
+                            - listitem [ref=e793]:
+                              - generic [ref=e796]:
+                                - generic [ref=e797]: "- Used Backbone.js to build a single page web application that completely operates on javascript/html and uses ajax to communicate with web services on the main server."
+                                - generic [ref=e798]: "- Used Backbone.js to build a single page web application that completely operates on javascript/html and uses ajax to communicate with web services on the main server."
+                    - link "Edit position Javascript Application Developer" [ref=e802] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C359907225%29&trackingId=cfL1PmdOQbG%2B0AXXs5y5iA%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Javascript Application Developer" [ref=e804]
+                - listitem [ref=e806]:
+                  - generic [ref=e808]:
+                    - link "ExpandLab logo" [ref=e810] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/3359316/
+                      - img "ExpandLab logo" [ref=e813]
+                    - generic [ref=e814]:
+                      - link "Magento Developer (Full Stack) ExpandLab Nov 2012 to Apr 2013 · 6 mos Atlanta Metropolitan Area" [ref=e816] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C359903630%29&trackingId=3eHZWUwGSXGauSQR%2BUpu8A%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e820]:
+                          - generic [ref=e821]: Magento Developer (Full Stack)
+                          - generic [ref=e822]: Magento Developer (Full Stack)
+                        - generic [ref=e823]:
+                          - generic [ref=e824]: ExpandLab
+                          - generic [ref=e825]: ExpandLab
+                        - generic [ref=e826]:
+                          - generic [ref=e827]: Nov 2012 - Apr 2013 · 6 mos
+                          - generic [ref=e828]: Nov 2012 to Apr 2013 · 6 mos
+                        - generic [ref=e829]:
+                          - generic [ref=e830]: Atlanta Metropolitan Area
+                          - generic [ref=e831]: Atlanta Metropolitan Area
+                      - list [ref=e833]:
+                        - listitem [ref=e834]:
+                          - list [ref=e836]:
+                            - listitem [ref=e837]:
+                              - generic [ref=e840]:
+                                - generic [ref=e841]: Developed and customized extensions for various e-commerce web applications.
+                                - generic [ref=e842]: Developed and customized extensions for various e-commerce web applications.
+                        - listitem [ref=e843]:
+                          - list [ref=e845]:
+                            - listitem [ref=e846]:
+                              - link "Thumbnail for Kirsch jQuery Interactive Product Listing Kirsch jQuery Interactive Product Listing" [ref=e847] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/359903630/multiple-media-viewer?profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY&treasuryMediaId=50009009&type=IMAGE
+                                - generic [ref=e848]:
+                                  - generic "Thumbnail for Kirsch jQuery Interactive Product Listing" [ref=e850]:
+                                    - figure [ref=e851]
+                                  - generic [ref=e853]:
+                                    - generic [ref=e854]: Kirsch jQuery Interactive Product Listing
+                                    - generic [ref=e855]: Kirsch jQuery Interactive Product Listing
+                            - listitem [ref=e856]:
+                              - link "Thumbnail for TGS Jewelers AngularJS Product Listing TGS Jewelers AngularJS Product Listing" [ref=e857] [cursor=pointer]:
+                                - /url: https://www.linkedin.com/in/thomasttvo/details/experience/359903630/multiple-media-viewer?profileId=ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY&treasuryMediaId=50009008&type=IMAGE
+                                - generic [ref=e858]:
+                                  - generic "Thumbnail for TGS Jewelers AngularJS Product Listing" [ref=e860]:
+                                    - figure [ref=e861]
+                                  - generic [ref=e863]:
+                                    - generic [ref=e864]: TGS Jewelers AngularJS Product Listing
+                                    - generic [ref=e865]: TGS Jewelers AngularJS Product Listing
+                    - link "Edit position Magento Developer (Full Stack)" [ref=e869] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C359903630%29&trackingId=jzY6mj03RtGc4P6vjCifmg%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Magento Developer (Full Stack)" [ref=e871]
+                - listitem [ref=e873]:
+                  - generic [ref=e875]:
+                    - link "Web Application Developer (Full Stack)" [ref=e877] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/search/results/all/?keywords=WingStats
+                      - generic [ref=e881]: Web Application Developer (Full Stack)
+                    - generic [ref=e882]:
+                      - link "Web Application Developer (Full Stack) WingStats Jul 2012 to Apr 2013 · 10 mos Atlanta, GA" [ref=e884] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C309499290%29&trackingId=W0dgCLggRiaUknD5Z7M%2F5w%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                        - generic [ref=e888]:
+                          - generic [ref=e889]: Web Application Developer (Full Stack)
+                          - generic [ref=e890]: Web Application Developer (Full Stack)
+                        - generic [ref=e891]:
+                          - generic [ref=e892]: WingStats
+                          - generic [ref=e893]: WingStats
+                        - generic [ref=e894]:
+                          - generic [ref=e895]: Jul 2012 - Apr 2013 · 10 mos
+                          - generic [ref=e896]: Jul 2012 to Apr 2013 · 10 mos
+                        - generic [ref=e897]:
+                          - generic [ref=e898]: Atlanta, GA
+                          - generic [ref=e899]: Atlanta, GA
+                      - list [ref=e901]:
+                        - listitem [ref=e902]:
+                          - list [ref=e904]:
+                            - listitem [ref=e905]:
+                              - generic [ref=e908]:
+                                - generic [ref=e909]: "WingStats is a web application that bridges that gap between pilots (job applicants) and airlines (job recruiters). It provides tools that are tailored for job application management in the aviation industry. - Successfully worked under the agile development principle. - Built the whole system from the ground up: Database Design, Back-end and Front-end Architectural Design. - Moved the original application from BackPress to Yii Framework (www.yiiframework.com) for better component organization and putting more focus into solid architecture and security. Post 2013: - On the server side: Customized Yii Framework to add support for enterprise development: Dependency Injection, Aspect Oriented Programming, Two Step View Layout, Service Layer (Transaction Script Implementation), and JSON Web Service inspired by the Patterns of Service Oriented Web Application by Martin Fowler. - On the client side: Used AngularJs and RequireJS to create a fully enterprise ready javascript application that transcend what's provided by jQuery."
+                                - generic [ref=e910]: "WingStats is a web application that bridges that gap between pilots (job applicants) and airlines (job recruiters). It provides tools that are tailored for job application management in the aviation industry. - Successfully worked under the agile development principle. - Built the whole system from the ground up: Database Design, Back-end and Front-end Architectural Design. - Moved the original application from BackPress to Yii Framework (www.yiiframework.com) for better component organization and putting more focus into solid architecture and security. Post 2013: - On the server side: Customized Yii Framework to add support for enterprise development: Dependency Injection, Aspect Oriented Programming, Two Step View Layout, Service Layer (Transaction Script Implementation), and JSON Web Service inspired by the Patterns of Service Oriented Web Application by Martin Fowler. - On the client side: Used AngularJs and RequireJS to create a fully enterprise ready javascript application that transcend what's provided by jQuery."
+                    - link "Edit position Web Application Developer (Full Stack)" [ref=e914] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/thomasttvo/add-edit/POSITION/?profileFormEntryPoint=PROFILE_SECTION&entityUrn=urn%3Ali%3Afsd_profilePosition%3A%28ACoAAAWhTn8BbPnyw1-QH7MHZ3zaJNenKn09YVY%2C309499290%29&trackingId=3QrWMeRGSr2%2FVsOjOyl62A%3D%3D&desktopBackground=PROFILE_DETAIL_SCREEN
+                      - img "Edit position Web Application Developer (Full Stack)" [ref=e916]
+          - complementary "Ads and widget recommendations" [ref=e192]:
+            - iframe [ref=e919]:
+              - generic [ref=f20e2]:
+                - generic [ref=f20e3]: Ad
+                - img "overflow-web-small" [ref=f20e6] [cursor=pointer]
+                - link "Upwork" [ref=f20e10] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.upwork.com%2Fhire%2F%3Fli_fat_id%3Dc1a671f0-4544-40db-b27e-ef085ae04ab3%26utm_campaign%3DPaidSocial_LinkedIn_Marketplace_Retargeting_Evergreen%26utm_medium%3DPaidSocial%26utm_content%3D398737776%26utm_source%3DLinkedIn%26utm_keyword%3D686528896%26utm_term%3D977758636&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGcX7oOkuTqUW2CaSVN-pG5mml9-cnPi_Zwhh71tON7azhP3gS1Ei3Qa4jFjpUrmvURSodgPtCX_5OKECwyuuSz3oXzd2W-A1gNz1adQHwbI6gICSigp3M1XND_x_awkG-C1zv9YZe_k5X6WzYBbbofQQGelETgqY2KTP2h4b97Ck5nwTKs5kTu-EsUSaL6mRyufcv6EI4NPvvstPq8JaiUKrHFdMrU-Ly4oJFPTCcz9xMdC8J9fG-a7swpiLEibVbtqgAlyYG3QnltoM8N5VYJXN-9hAN62TjRvuMYYi6LliUdN5lkPgrPErEa5zYlfZv_meQ3_liaqQqZce8qJpX-x3Jcdz82MgRWOKwc9QKl_ihscfQi1QRtGjBGQLOHz6sdQmF9CE0f0QygvKAfUh3t_3rk2mE7trmTpohoYNlWXshBG1VugHmClpAp81t5GOCtfUCgkpHDWveo3osPkqtoZCtYnnVzjA0zK0DOtwYazYkvNqTjgRAcD_0dawSY1tCpuk6oh60b2nTaRifqEYmXrpR8b_ZQMXPLlUGII0vrOW79JRaQTghU237D9CBRAdPVv42ix_vi19-5vkwT8x-Rp9GDY28IyloATBgTLFoi4JJb8posCCTZP_SqFqN1Ua9-lYZnAYYZprdTUm9huoHBu6T5NquuKDPTnisCJ0X_LvuFD6SiPTgBe14pyG0hGiylQg8UA2EMi967KeEsnXTgMqHmxvnKf8iRxxoCGxtokh9Og83LkBAqjgVuHyihaUlpuIx3gQvA9xaxuQwh7WSTkwxJpTsM65qF6ckGPq5shzx_lq-Jb2m8cST6KUK1MpdJH3TXnxm59_OkdiCUOTBmWisgA8MKzvvSXQEkZsgYvAZSL5QVd60atD62k5xIsyjzX2got7n7vcz4IX2dmoYMXkNnt7Y1zzFPC9rIJGKHpHSG6OXnAhhMfXti1sMbTOW38AydD_9JzKWY6LMNzJT_0N4c2aeL-SREnfx7OZ-ol4MzTGOFvYBNQaar4_IX-CHLZ07mYyayTOwlN69TkGBMW3hCgOEkVsUpXsQAIovkxu2nzh5_5QFV3NXm5zQ4oYXtC93v9L3nA2wSOWQ58QfkL3p7eSMmAoJNyDsbU6KWXJ32U4YOiPFhMXoVB0MK446daK-Gkg%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_position_details%22%2C%22trackingId%22%3A%2211f15f17-28f9-4dbe-b07a-29a44dc1c9d8%22%7D%2C%22time%22%3A1771132554852%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_position_details%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A3005220901978670750
+                - generic [ref=f20e11]:
+                  - heading "Need that project off your plate? Come back to Upwork." [level=2] [ref=f20e14]
+                  - generic [ref=f20e16]:
+                    - img "Thomas" [ref=f20e17]
+                    - generic [ref=f20e18]:
+                      - link "Upwork" [ref=f20e19] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.upwork.com%2Fhire%2F%3Fli_fat_id%3Dc1a671f0-4544-40db-b27e-ef085ae04ab3%26utm_campaign%3DPaidSocial_LinkedIn_Marketplace_Retargeting_Evergreen%26utm_medium%3DPaidSocial%26utm_content%3D398737776%26utm_source%3DLinkedIn%26utm_keyword%3D686528896%26utm_term%3D977758636&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGcX7oOkuTqUW2CaSVN-pG5mml9-cnPi_Zwhh71tON7azhP3gS1Ei3Qa4jFjpUrmvURSodgPtCX_5OKECwyuuSz3oXzd2W-A1gNz1adQHwbI6gICSigp3M1XND_x_awkG-C1zv9YZe_k5X6WzYBbbofQQGelETgqY2KTP2h4b97Ck5nwTKs5kTu-EsUSaL6mRyufcv6EI4NPvvstPq8JaiUKrHFdMrU-Ly4oJFPTCcz9xMdC8J9fG-a7swpiLEibVbtqgAlyYG3QnltoM8N5VYJXN-9hAN62TjRvuMYYi6LliUdN5lkPgrPErEa5zYlfZv_meQ3_liaqQqZce8qJpX-x3Jcdz82MgRWOKwc9QKl_ihscfQi1QRtGjBGQLOHz6sdQmF9CE0f0QygvKAfUh3t_3rk2mE7trmTpohoYNlWXshBG1VugHmClpAp81t5GOCtfUCgkpHDWveo3osPkqtoZCtYnnVzjA0zK0DOtwYazYkvNqTjgRAcD_0dawSY1tCpuk6oh60b2nTaRifqEYmXrpR8b_ZQMXPLlUGII0vrOW79JRaQTghU237D9CBRAdPVv42ix_vi19-5vkwT8x-Rp9GDY28IyloATBgTLFoi4JJb8posCCTZP_SqFqN1Ua9-lYZnAYYZprdTUm9huoHBu6T5NquuKDPTnisCJ0X_LvuFD6SiPTgBe14pyG0hGiylQg8UA2EMi967KeEsnXTgMqHmxvnKf8iRxxoCGxtokh9Og83LkBAqjgVuHyihaUlpuIx3gQvA9xaxuQwh7WSTkwxJpTsM65qF6ckGPq5shzx_lq-Jb2m8cST6KUK1MpdJH3TXnxm59_OkdiCUOTBmWisgA8MKzvvSXQEkZsgYvAZSL5QVd60atD62k5xIsyjzX2got7n7vcz4IX2dmoYMXkNnt7Y1zzFPC9rIJGKHpHSG6OXnAhhMfXti1sMbTOW38AydD_9JzKWY6LMNzJT_0N4c2aeL-SREnfx7OZ-ol4MzTGOFvYBNQaar4_IX-CHLZ07mYyayTOwlN69TkGBMW3hCgOEkVsUpXsQAIovkxu2nzh5_5QFV3NXm5zQ4oYXtC93v9L3nA2wSOWQ58QfkL3p7eSMmAoJNyDsbU6KWXJ32U4YOiPFhMXoVB0MK446daK-Gkg%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_position_details%22%2C%22trackingId%22%3A%2211f15f17-28f9-4dbe-b07a-29a44dc1c9d8%22%7D%2C%22time%22%3A1771132554852%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_position_details%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A3005220901978670750
+                        - img "Upwork" [ref=f20e20]
+                      - tooltip "Upwork" [ref=f20e21]
+                  - generic [ref=f20e22]:
+                    - heading "You’re just a job post away from getting started." [level=2] [ref=f20e25]
+                    - link "Post for Free" [ref=f20e27] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.upwork.com%2Fhire%2F%3Fli_fat_id%3Dc1a671f0-4544-40db-b27e-ef085ae04ab3%26utm_campaign%3DPaidSocial_LinkedIn_Marketplace_Retargeting_Evergreen%26utm_medium%3DPaidSocial%26utm_content%3D398737776%26utm_source%3DLinkedIn%26utm_keyword%3D686528896%26utm_term%3D977758636&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGcX7oOkuTqUW2CaSVN-pG5mml9-cnPi_Zwhh71tON7azhP3gS1Ei3Qa4jFjpUrmvURSodgPtCX_5OKECwyuuSz3oXzd2W-A1gNz1adQHwbI6gICSigp3M1XND_x_awkG-C1zv9YZe_k5X6WzYBbbofQQGelETgqY2KTP2h4b97Ck5nwTKs5kTu-EsUSaL6mRyufcv6EI4NPvvstPq8JaiUKrHFdMrU-Ly4oJFPTCcz9xMdC8J9fG-a7swpiLEibVbtqgAlyYG3QnltoM8N5VYJXN-9hAN62TjRvuMYYi6LliUdN5lkPgrPErEa5zYlfZv_meQ3_liaqQqZce8qJpX-x3Jcdz82MgRWOKwc9QKl_ihscfQi1QRtGjBGQLOHz6sdQmF9CE0f0QygvKAfUh3t_3rk2mE7trmTpohoYNlWXshBG1VugHmClpAp81t5GOCtfUCgkpHDWveo3osPkqtoZCtYnnVzjA0zK0DOtwYazYkvNqTjgRAcD_0dawSY1tCpuk6oh60b2nTaRifqEYmXrpR8b_ZQMXPLlUGII0vrOW79JRaQTghU237D9CBRAdPVv42ix_vi19-5vkwT8x-Rp9GDY28IyloATBgTLFoi4JJb8posCCTZP_SqFqN1Ua9-lYZnAYYZprdTUm9huoHBu6T5NquuKDPTnisCJ0X_LvuFD6SiPTgBe14pyG0hGiylQg8UA2EMi967KeEsnXTgMqHmxvnKf8iRxxoCGxtokh9Og83LkBAqjgVuHyihaUlpuIx3gQvA9xaxuQwh7WSTkwxJpTsM65qF6ckGPq5shzx_lq-Jb2m8cST6KUK1MpdJH3TXnxm59_OkdiCUOTBmWisgA8MKzvvSXQEkZsgYvAZSL5QVd60atD62k5xIsyjzX2got7n7vcz4IX2dmoYMXkNnt7Y1zzFPC9rIJGKHpHSG6OXnAhhMfXti1sMbTOW38AydD_9JzKWY6LMNzJT_0N4c2aeL-SREnfx7OZ-ol4MzTGOFvYBNQaar4_IX-CHLZ07mYyayTOwlN69TkGBMW3hCgOEkVsUpXsQAIovkxu2nzh5_5QFV3NXm5zQ4oYXtC93v9L3nA2wSOWQ58QfkL3p7eSMmAoJNyDsbU6KWXJ32U4YOiPFhMXoVB0MK446daK-Gkg%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_position_details%22%2C%22trackingId%22%3A%2211f15f17-28f9-4dbe-b07a-29a44dc1c9d8%22%7D%2C%22time%22%3A1771132554852%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_position_details%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A3005220901978670750
+            - generic [ref=e920]:
+              - generic [ref=e924]:
+                - heading "Who your viewers also viewed" [level=2] [ref=e925]:
+                  - generic [ref=e926]: Who your viewers also viewed
+                  - generic [ref=e927]: Who your viewers also viewed
+                - paragraph [ref=e928]:
+                  - generic [ref=e929]:
+                    - img [ref=e931]
+                    - text: Private to you
+                  - generic [ref=e933]:
+                    - img [ref=e935]
+                    - text: Private to you
+              - list [ref=e938]:
+                - listitem [ref=e939]:
+                  - generic [ref=e940]:
+                    - img "Someone at Ask for my current employment" [ref=e945]
+                    - generic [ref=e946]:
+                      - generic [ref=e952]:
+                        - generic [ref=e953]: Someone at Ask for my current employment
+                        - generic [ref=e954]: Someone at Ask for my current employment
+                      - list [ref=e956]:
+                        - listitem [ref=e957]:
+                          - button "View" [ref=e959] [cursor=pointer]:
+                            - generic [ref=e960]: View
+                - listitem [ref=e961]:
+                  - generic [ref=e962]:
+                    - img "Software Developer at Kooth Digital…" [ref=e967]
+                    - generic [ref=e968]:
+                      - generic [ref=e974]:
+                        - generic [ref=e975]: Software Developer at Kooth Digital…
+                        - generic [ref=e976]: Software Developer at Kooth Digital…
+                      - list [ref=e978]:
+                        - listitem [ref=e979]:
+                          - button "View" [ref=e981] [cursor=pointer]:
+                            - generic [ref=e982]: View
+                - listitem [ref=e983]:
+                  - generic [ref=e984]:
+                    - img "Executive Director in the Spectator…" [ref=e989]
+                    - generic [ref=e990]:
+                      - generic [ref=e996]:
+                        - generic [ref=e997]: Executive Director in the Spectator…
+                        - generic [ref=e998]: Executive Director in the Spectator…
+                      - list [ref=e1000]:
+                        - listitem [ref=e1001]:
+                          - button "View" [ref=e1003] [cursor=pointer]:
+                            - generic [ref=e1004]: View
+                - listitem [ref=e1005]:
+                  - generic [ref=e1006]:
+                    - img "Software Developer at OpenSpace" [ref=e1011]
+                    - generic [ref=e1012]:
+                      - generic [ref=e1018]:
+                        - generic [ref=e1019]: Software Developer at OpenSpace
+                        - generic [ref=e1020]: Software Developer at OpenSpace
+                      - list [ref=e1022]:
+                        - listitem [ref=e1023]:
+                          - button "View" [ref=e1025] [cursor=pointer]:
+                            - generic [ref=e1026]: View
+            - iframe [ref=e1031]:
+              - generic [ref=f21e3]:
+                - banner [ref=f21e4]:
+                  - generic [ref=f21e5]:
+                    - link "Promoted" [ref=f21e6] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ads/start?src=en-all-ad-li-ads_by_li&trk=ads_by_li&utm_medium=ad&utm_source=li&utm_campaign=ads_by_li
+                    - button [ref=f21e7] [cursor=pointer]:
+                      - img [ref=f21e8]
+                - generic [ref=f21e13]:
+                  - 'link "Ad Image 885,463,456 #1 Work Management Tool ClickUp’s exceptional flexibility can handle any type of work, & it''s free. D D & 38 other connections also follow ClickUp" [ref=f21e14] [cursor=pointer]':
+                    - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fclickup.com%2Flp%3Fli_fat_id%3Dc1a671f0-4544-40db-b27e-ef085ae04ab3%26utm_campaign%3Dli_cpc_na_nnc_pro_trial_all-devices_text_lp_x_jf-int_x_consolidated-jf%26utm_medium%3Dcpc%26utm_content%3Dli_cpc_na_nnc_pro_trial_all-devices_text_lp_x_jf-int_x_consolidated-jf%26utm_source%3Dlinkedin&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGcX7oOphvxL6jraLBVEeq_bioDd56QZq43pZ2iG9tlwMHfEyprkWLO8skhwab1abd0OCf6-eUHGs7NuoL4iF2OVE-rLY0xY_jIOZV7Ums3J_pe6lMq1witMQ38Ml4LA-CctRw8Q2_VjrrWf7q44UUV50RyTlyGkXnjUH65fklhDmBZzp-_Uyj9AS6e_Cnsri1OQmPdyx-9jEsByGMKn39bm4QaVdHydhAP9baJtjclDYpBPVAJXs2KXsvoUKU1WUo-s2GKENuZVSb5BfTeH79aWe1jLIcKmEK_yf0Gd1j-2Ao4gEaDydsiEHPA3KG_j_DWGcxi5NwKu1p6GT_KB_YJehSO-nGkdz4-k7ZYtmoMJlLTNFuOIWA4d7vOEYgWplvFwIWfoB1RANn-pxhdciEPsriERU-xy-WIr7x8y7fRGHUTvs5agv3tnF0JeIlY0_FQOSa15cGesachNyedjfIasdL0MYfhNI1bgnOYUC6x-pADDZaqrnHhOXozxFiGK4fztR_dkDAvtFbWonwpJi3Q2t706oWYLINVi9QAsQeMGsR-o9mY6O_BrbI6asGJhwd4RVwoOpAGw8bU3kw6-eRflTTS_byP3YQX9y9NeZgthPBGIlvyP3I4qTQ16dsXpC_9OTf_HQBbGXyfKtD9nrLvOr7io2_dYnjKqNqWZoEgtZ8PwTm_k2-CXLl398IA2ydGK2iBGLrG1f4Mby1jR3rKe69tLyvF8Xdx0v2HAkZEY7LDTZ58coPQuE_nFgVTBR8PoC-H1a4IJ10gh8_h6tOlZm-oEQJTr_H0tCKfCXMpG0f7iJ6nYezxNc_YYwBzuAbKUMzX16ulu7qsAg0IzjdYYOZZ1367_Dok_yUQkz89PyhKrhm3P81_-bmN4GcBCtmTnDU2xd3kG4C0z5o6LwJ1IUnYaI9kt71SpDrIHJxeUf7OEOOHSpsYW0pxJHB4RvFHVZq4LaGm0reX41oSq9IVWJtC7McBLjkHWFNciESkZIkZsWls4Wd1ibTpzKZtxgTdxV07Qj_cq1-f3d1SvCmi3Q%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_position_details%22%2C%22trackingId%22%3A%22e87a967e-164b-43e4-9ea2-37d6258744cd%22%7D%2C%22time%22%3A1771132554918%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_position_details%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A3005220901978670750
+                    - img "Ad Image 885,463,456" [ref=f21e16]
+                    - generic [ref=f21e17]:
+                      - heading "#1 Work Management Tool" [level=4] [ref=f21e18]
+                      - paragraph [ref=f21e19]: ClickUp’s exceptional flexibility can handle any type of work, & it's free.
+                      - generic [ref=f21e20]:
+                        - img "D" [ref=f21e22]
+                        - paragraph [ref=f21e23]: D & 38 other connections also follow ClickUp
+                  - link "Ad Image 868,190,586 100% Online IT Degree WGU’s online IT degree lets you study anytime, no set class times. Mark Mark & 10 other connections also follow Western Governors University" [ref=f21e24] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.wgu.edu%2Flp%2Fit%2Flead%2Flearning-model.html%3Frefer_id%3D2019817%26ch%3DPDSCL%26li_fat_id%3Dc1a671f0-4544-40db-b27e-ef085ae04ab3&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGcX7oOpQGFuPqrvVHL2VOSj9ceToOJ0SyCKv_jBZ8hskLckHBgAMYbFUFf7CDODDBt9ecB73mtxLTxk1bdb-1Do8degoLUI4ARJy-aQzK0TOfvdYfiSl9c8H72WWX8r-2QpgdYEeysBsLuMTcWT7lTGRud__WjaiB2uiV5nDuo-dCDN8xxSNvGu1ZnfqjcoyTqjL-4OE66JU_4u0OqV_vaaBAfae3dbtC0GUoqGXMntXaXWTjCqVlPZfncAwKDkPG6t9YcBAEaxzYjO91pYmUxMoE6ZPCfALvgdaZRQRMp0whQL9Gc-WFOigQXiW5K6msNzvpiU5N1YwknPTN-ibezLP8jFfi2nW1Jg1xM7rgvyI4Fz_fhlhPWjXPiIhqg2y3xXMbPYUe2XpBOLFjdurTwl7WfbC_xRvLcZg5wUQwN1tvwDQOwo3BJg_HFFkqQdZ5GJMj30tZVhT8O43RwvKgiuJ5WB7zf_2klgQ_bgGP3F6xPg_UQl6RCvwGaSzdy0ZMVQMDimJh9WHScAgfDex0LwhTdZowMYoqGR6H8tOUSiMHOaiBTLbClk9Zy3E555QzGPvcsfs8gDThiMkBVZsVvEv_tgHcxUgWAiXNFVmwsKHNMSOzGI1YgoO5qZ89HoW_55mehJZQYbIuKUxe_cqqD31BGKBqzAFWRTixRghB3gs4xaJA3k4A_M8VKeSkcTgH9QNMJCOvN1F7k8APWIFy9ATN6HE8Mv5Sa51iemf-jOAXcl8KqSPPXuwESzC4Jvo4xFQp4PF3ijYMtL8SgPjUIYaF7_Aai5FY3xmyhLLTdq_sSC4fQNP2_KuobRVasuLUTAs2M7JBgUr--iRq4EoRcvkwYlnIfDJWd_ZL2mdlnBaaoNkfjDkHqTQWjLCeMSwjo0Lt807hgw4LSy0ehavEmAB8PjAjVybOU8lB4Hrj383a5ZXa1wP7-0GVw7KyGVG4DQu9Qcacn7rsj1XZ_w1kiGof78PxsSgrzm1e6Yn2GHb7qS4zogX1AUyowD6resEtckLVtQPHTBeWW-CXXGr5uYyCYDIDSh6FVx1E%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_position_details%22%2C%22trackingId%22%3A%225fd05fcd-8905-40a7-ac62-7960fa54bea9%22%7D%2C%22time%22%3A1771132554917%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_position_details%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A3005220901978670750
+                    - img "Ad Image 868,190,586" [ref=f21e26]
+                    - generic [ref=f21e27]:
+                      - heading "100% Online IT Degree" [level=4] [ref=f21e28]
+                      - paragraph [ref=f21e29]: WGU’s online IT degree lets you study anytime, no set class times.
+                      - generic [ref=f21e30]:
+                        - img "Mark" [ref=f21e32]
+                        - paragraph [ref=f21e33]: Mark & 10 other connections also follow Western Governors University
+      - contentinfo [ref=e210]:
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - navigation [ref=e214]:
+              - list [ref=e1032]:
+                - listitem [ref=e1033]:
+                  - link "About" [ref=e1034] [cursor=pointer]:
+                    - /url: https://about.linkedin.com/
+                - listitem [ref=e1035]:
+                  - link "Accessibility" [ref=e1036] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/accessibility
+                - listitem [ref=e1037]:
+                  - link "Talent Solutions" [ref=e1038] [cursor=pointer]:
+                    - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                - listitem [ref=e1039]:
+                  - link "Professional Community Policies" [ref=e1040] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/legal/professional-community-policies
+                - listitem [ref=e1041]:
+                  - link "Careers" [ref=e1042] [cursor=pointer]:
+                    - /url: https://careers.linkedin.com/
+                - listitem [ref=e1043]:
+                  - link "Marketing Solutions" [ref=e1044] [cursor=pointer]:
+                    - /url: https://business.linkedin.com/marketing-solutions?trk=n_nav_lms_f&src=li-footer
+                - listitem [ref=e1045]:
+                  - button "Privacy & Terms" [ref=e1047] [cursor=pointer]:
+                    - generic [ref=e1049]:
+                      - text: Privacy & Terms
+                      - img [ref=e1050]
+                - listitem [ref=e1052]:
+                  - link "Ad Choices" [ref=e1053] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/help/linkedin/answer/62931
+                - listitem [ref=e1054]:
+                  - link "Advertising" [ref=e1055] [cursor=pointer]:
+                    - /url: https://business.linkedin.com/marketing-solutions/ads?trk=n_nav_ads_f
+                - listitem [ref=e1056]:
+                  - link "Sales Solutions" [ref=e1057] [cursor=pointer]:
+                    - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                - listitem [ref=e1058]:
+                  - link "Mobile" [ref=e1059] [cursor=pointer]:
+                    - /url: https://mobile.linkedin.com/
+                - listitem [ref=e1060]:
+                  - link "Small Business" [ref=e1061] [cursor=pointer]:
+                    - /url: https://smallbusiness.linkedin.com?&src=li-footer
+                - listitem [ref=e1062]:
+                  - link "Safety Center" [ref=e1063] [cursor=pointer]:
+                    - /url: https://safety.linkedin.com
+            - generic [ref=e216]:
+              - list [ref=e217]:
+                - listitem [ref=e218]:
+                  - img [ref=e219]
+                  - generic [ref=e221]:
+                    - link "Questions? Visit our Help Center." [ref=e222] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin?trk=d_flagship3_profile_view_base_position_details
+                      - text: Questions?
+                    - paragraph [ref=e223]: Visit our Help Center.
+                - listitem [ref=e224]:
+                  - img [ref=e225]
+                  - generic [ref=e227]:
+                    - link "Manage your account and privacy Go to your Settings." [ref=e228] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/psettings/
+                      - text: Manage your account and privacy
+                    - paragraph [ref=e229]: Go to your Settings.
+                - listitem [ref=e230]:
+                  - img [ref=e231]
+                  - generic [ref=e233]:
+                    - link "Recommendation transparency Learn more about Recommended Content." [ref=e234] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/a1339724
+                      - text: Recommendation transparency
+                    - paragraph [ref=e235]: Learn more about Recommended Content.
+              - generic [ref=e236]:
+                - generic [ref=e237]: Select Language
+                - combobox "Select Language" [ref=e238]:
+                  - option "العربية (Arabic)"
+                  - option "বাংলা (Bangla)"
+                  - option "Čeština (Czech)"
+                  - option "Dansk (Danish)"
+                  - option "Deutsch (German)"
+                  - option "Ελληνικά (Greek)"
+                  - option "English (English)" [selected]
+                  - option "Español (Spanish)"
+                  - option "فارسی (Persian)"
+                  - option "Suomi (Finnish)"
+                  - option "Français (French)"
+                  - option "हिंदी (Hindi)"
+                  - option "Magyar (Hungarian)"
+                  - option "Bahasa Indonesia (Indonesian)"
+                  - option "Italiano (Italian)"
+                  - option "עברית (Hebrew)"
+                  - option "日本語 (Japanese)"
+                  - option "한국어 (Korean)"
+                  - option "मराठी (Marathi)"
+                  - option "Bahasa Malaysia (Malay)"
+                  - option "Nederlands (Dutch)"
+                  - option "Norsk (Norwegian)"
+                  - option "ਪੰਜਾਬੀ (Punjabi)"
+                  - option "Polski (Polish)"
+                  - option "Português (Portuguese)"
+                  - option "Română (Romanian)"
+                  - option "Русский (Russian)"
+                  - option "Svenska (Swedish)"
+                  - option "తెలుగు (Telugu)"
+                  - option "ภาษาไทย (Thai)"
+                  - option "Tagalog (Tagalog)"
+                  - option "Türkçe (Turkish)"
+                  - option "Українська (Ukrainian)"
+                  - option "Tiếng Việt (Vietnamese)"
+                  - option "简体中文 (Chinese (Simplified))"
+                  - option "正體中文 (Chinese (Traditional))"
+          - paragraph [ref=e239]: LinkedIn Corporation © 2026
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - generic [ref=e243] [cursor=pointer]:
+                - generic [ref=e244]:
+                  - img "Thomas Vo" [ref=e245]
+                  - generic [ref=e1065]: Status is online
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e246]:
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: Messaging
+                    - generic [ref=e249]: You are on the messaging overlay. Press enter to open the list of conversations.
+              - generic [ref=e250]:
+                - button "Open messenger dropdown menu" [ref=e252] [cursor=pointer]:
+                  - img "Open messenger dropdown menu" [ref=e253]
+                - button "Compose message" [ref=e256] [cursor=pointer]:
+                  - img [ref=e257]
+                  - generic [ref=e259]: Compose message
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e260] [cursor=pointer]:
+                  - img [ref=e261]
+                  - generic [ref=e263]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e1066]:
+              - heading "Page inboxes" [level=3] [ref=e1068]
+              - generic [ref=e1069] [cursor=pointer]:
+                - generic [ref=e1070]: Click to see affiliated inboxes
+                - button "Page inboxes" [ref=e1071]:
+                  - img [ref=e1072]
+        - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - region [ref=e264]
