@@ -66,12 +66,12 @@ export const data = {
           logo: '/resume/assets/logos/openspace.png',
           link: 'https://www.linkedin.com/company/18223755/',
           start: 'Jun 2024',
-          end: null,
+          end: 'Jul 2026',
           location: 'Remote · San Francisco, CA',
           skills: [
             ['React Native', 'TypeScript', 'Kotlin', 'Objective-C', 'Amplitude', 'Metabase'],
           ],
-          description: `- Spearhead agentic coding transformation, built several coding automation solutions, notably an MCP server for a full mobile visual development workflow.
+          description: `- Pioneered agentic coding at the company, building several automation tools, notably an MCP server for a full mobile visual development workflow.
 - Led and delivered a pivotal, category-defining initiative for the company with 3 sub-projects running simultaneously.
 - Own the core capture features generating terabytes of 4K videos every month.
 - Work directly with the data science team and own several data charts in Amplitude and Metabase that help assess product health.
@@ -165,7 +165,7 @@ export const data = {
           location: 'Vietnam & Atlanta, GA',
           description: `- Built a software engineer team in Ho Chi Minh city as augmented staff members for the AngularJS team at Weather.com (based in Atlanta, GA).
 - Facilitated remote collaboration between dev teams distributed on the two opposite sides of the globe.
-- Participated in the sales, management, and operations—growing the company to 15 engineers.`,
+- Participated in the sales, management, and operations, growing the company to 15 engineers.`,
         },
         {
           title: 'Software Engineer V',
